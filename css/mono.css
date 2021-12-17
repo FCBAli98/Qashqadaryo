@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,900&display=swap");
+body .container-fluid {
+  position: relative;
+  padding: 0; }
+  body .container-fluid .navbar {
+    width: 100%;
+    padding: 23px 217px 23px 218px; }
+    body .container-fluid .navbar .navbar-brand {
+      display: flex;
+      align-items: center; }
+      body .container-fluid .navbar .navbar-brand img {
+        width: 76px;
+        height: 76px; }
+      body .container-fluid .navbar .navbar-brand .navbar-text {
+        margin-left: 11px; }
+        body .container-fluid .navbar .navbar-brand .navbar-text h5 {
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 116.4%;
+          text-transform: uppercase;
+          color: #4883A5; }
+        body .container-fluid .navbar .navbar-brand .navbar-text h4 {
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 20px;
+          line-height: 116.4%;
+          text-transform: uppercase;
+          color: #4883A5; }
+    body .container-fluid .navbar .nav .nav-text1 .nav-item .nav-link {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 94.69%;
+      text-align: center;
+      color: #535C6D; }
+    body .container-fluid .navbar .nav .nav-text2 .nav-item .nav-link {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 94.69%;
+      text-align: center;
+      color: #535C6D; }
+    body .container-fluid .navbar .nav .nav-text3 .nav-item .nav-link {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 94.69%;
+      text-align: center;
+      color: #535C6D;
+      text-transform: capitalize; }
+  body .container-fluid .navbar-menus {
+    padding: 30px 220.5px;
+    width: 100%;
+    background-color: #535C6D;
+    height: 106px;
+    mix-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    body .container-fluid .navbar-menus .nav {
+      width: 100%;
+      display: flex;
+      justify-content: space-between; }
+      body .container-fluid .navbar-menus .nav .nav-item .nav-link {
+        width: 100%;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 22px;
+        text-transform: capitalize;
+        color: #FFFFFF; }
+      body .container-fluid .navbar-menus .nav .nav-item .nav-link:hover {
+        color: #adb5bd; }
+  body .container-fluid .body {
+    position: relative; }
+    body .container-fluid .body .body-content {
+      width: 100%;
+      height: 736px;
+      background-image: url("../assets/image/mono.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      opacity: 0.3; }
+    body .container-fluid .body .body-text {
+      position: absolute;
+      top: 274px;
+      left: 235px; }
+      body .container-fluid .body .body-text p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 139.9%;
+        text-transform: uppercase;
+        color: #51596A; }
+  body .container-fluid .skills .row {
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 722px; }
+    body .container-fluid .skills .row .col-9 .card {
+      border: 0;
+      background: #EBF1F4;
+      border-radius: 16px;
+      padding: 65px 79px 56px 79px; }
+      body .container-fluid .skills .row .col-9 .card .card-body p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 139.9%;
+        text-transform: capitalize;
+        color: #51596A; }
+  @media (max-width: 576px) {
+    body .container-fluid .navbar {
+      padding: 20px 25px; }
+      body .container-fluid .navbar .navbar-brand img {
+        width: 45px;
+        height: 45px; }
+      body .container-fluid .navbar .navbar-brand .navbar-text h5 {
+        font-size: 10px; }
+      body .container-fluid .navbar .navbar-brand .navbar-text h4 {
+        font-size: 10px; }
+      body .container-fluid .navbar .menu-btn {
+        width: 30px;
+        height: 30px;
+        background-image: url("../assets/icons/round_hamburger_menu_burger_icon_132782.svg");
+        background-repeat: no-repeat;
+        background-size: cover; }
+      body .container-fluid .navbar .nav {
+        display: none; }
+    body .container-fluid .navbar-menus {
+      display: none; }
+    body .container-fluid .body .body-content {
+      width: 100%;
+      height: 188px; }
+    body .container-fluid .body .body-text {
+      top: 60px;
+      left: 43px; }
+      body .container-fluid .body .body-text p {
+        font-size: 12px; }
+    body .container-fluid .skills .row {
+      width: 100%;
+      top: 240px;
+      justify-content: center;
+      margin: 0; }
+      body .container-fluid .skills .row .col-9 {
+        width: 100%; }
+        body .container-fluid .skills .row .col-9 .card {
+          padding: 10px; }
+          body .container-fluid .skills .row .col-9 .card .card-body p {
+            font-size: 10px; } }
+  @media (min-width: 576px) and (max-width: 768px) {
+    body .container-fluid .navbar {
+      padding: 20px 25px; }
+      body .container-fluid .navbar .navbar-brand img {
+        width: 45px;
+        height: 45px; }
+      body .container-fluid .navbar .navbar-brand .navbar-text h5 {
+        font-size: 15px; }
+      body .container-fluid .navbar .navbar-brand .navbar-text h4 {
+        font-size: 15px; }
+      body .container-fluid .navbar .menu-btn {
+        width: 30px;
+        height: 30px;
+        background-image: url("../assets/icons/round_hamburger_menu_burger_icon_132782.svg");
+        background-repeat: no-repeat;
+        background-size: cover; }
+      body .container-fluid .navbar .nav {
+        display: none; }
+    body .container-fluid .navbar-menus {
+      display: none; }
+    body .container-fluid .body .body-content {
+      width: 100%;
+      height: 226px; }
+    body .container-fluid .body .body-text {
+      top: 80px;
+      left: 40px; }
+      body .container-fluid .body .body-text p {
+        font-size: 15px; }
+    body .container-fluid .skills .row {
+      width: 100%;
+      top: 279px;
+      margin: 0; }
+      body .container-fluid .skills .row .col-9 .card {
+        padding: 20px; }
+        body .container-fluid .skills .row .col-9 .card .card-body p {
+          font-size: 15px; } }
+  @media (max-width: 992px) and (min-width: 768px) {
+    body .container-fluid .navbar {
+      padding: 20px 25px; }
+      body .container-fluid .navbar .navbar-brand img {
+        width: 55px;
+        height: 55px; }
+      body .container-fluid .navbar .navbar-brand .navbar-text h5 {
+        font-size: 15px; }
+      body .container-fluid .navbar .navbar-brand .navbar-text h4 {
+        font-size: 15px; }
+      body .container-fluid .navbar .menu-btn {
+        width: 30px;
+        height: 30px;
+        background-image: url("../assets/icons/round_hamburger_menu_burger_icon_132782.svg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      body .container-fluid .navbar .nav {
+        display: none; }
+    body .container-fluid .navbar-menus {
+      display: none; }
+    body .container-fluid .body .body-content {
+      width: 100%;
+      height: 304px; }
+    body .container-fluid .body .body-text {
+      top: 110px;
+      left: 65px; }
+      body .container-fluid .body .body-text p {
+        font-size: 18px; }
+    body .container-fluid .skills .row {
+      width: 100%;
+      top: 327px; }
+      body .container-fluid .skills .row .col-9 .card {
+        padding: 25px; }
+        body .container-fluid .skills .row .col-9 .card .card-body p {
+          font-size: 15px; } }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    body .container-fluid .navbar {
+      padding: 25px; }
+      body .container-fluid .navbar .navbar-brand img {
+        width: 60px;
+        height: 60px; }
+      body .container-fluid .navbar .navbar-brand .navbar-text h5 {
+        font-size: 18px; }
+      body .container-fluid .navbar .navbar-brand .navbar-text h4 {
+        font-size: 18px; }
+      body .container-fluid .navbar .nav .nav-text1 .nav-item .nav-link {
+        padding: 10px; }
+      body .container-fluid .navbar .nav .nav-text2 .nav-item .nav-link {
+        padding: 10px; }
+      body .container-fluid .navbar .nav .nav-text3 .nav-item .nav-link {
+        padding: 10px; }
+    body .container-fluid .navbar-menus {
+      padding: 25px; }
+      body .container-fluid .navbar-menus .nav {
+        justify-content: space-around; }
+        body .container-fluid .navbar-menus .nav .nav-item .nav-link {
+          padding: 10px;
+          font-size: 16px; }
+    body .container-fluid .body .body-content {
+      width: 100%;
+      height: 390px; }
+    body .container-fluid .body .body-text {
+      top: 145px;
+      left: 120px; }
+      body .container-fluid .body .body-text p {
+        font-size: 20px; }
+    body .container-fluid .skills .row {
+      width: 100%;
+      top: 510px; }
+      body .container-fluid .skills .row .col-9 .card {
+        padding: 30px; }
+        body .container-fluid .skills .row .col-9 .card .card-body p {
+          font-size: 20px; } }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    body .container-fluid .navbar {
+      padding: 30px; }
+    body .container-fluid .navbar-menus {
+      padding: 30px; }
+      body .container-fluid .navbar-menus .nav .nav-item .nav-link {
+        font-size: 19px; }
+    body .container-fluid .body .body-content {
+      width: 100%;
+      height: 515px; }
+    body .container-fluid .body .body-text {
+      top: 190px;
+      left: 73px; }
+      body .container-fluid .body .body-text p {
+        font-size: 27px; }
+    body .container-fluid .skills .row {
+      width: 100%;
+      top: 620px; }
+      body .container-fluid .skills .row .col-9 .card {
+        padding: 30px; }
+        body .container-fluid .skills .row .col-9 .card .card-body p {
+          font-size: 20px; } }
+
+/*# sourceMappingURL=mono.css.map */

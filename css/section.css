@@ -1,0 +1,492 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,900&display=swap");
+body .container-fluid {
+  padding: 0;
+  margin: 0; }
+  body .container-fluid .navbar {
+    width: 100%;
+    padding: 23px 217px 23px 218px; }
+    body .container-fluid .navbar .navbar-brand {
+      display: flex;
+      align-items: center; }
+      body .container-fluid .navbar .navbar-brand img {
+        width: 76px;
+        height: 76px; }
+      body .container-fluid .navbar .navbar-brand .navbar-text {
+        margin-left: 11px; }
+        body .container-fluid .navbar .navbar-brand .navbar-text h5 {
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 116.4%;
+          text-transform: uppercase;
+          color: #4883A5; }
+        body .container-fluid .navbar .navbar-brand .navbar-text h4 {
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 20px;
+          line-height: 116.4%;
+          text-transform: uppercase;
+          color: #4883A5; }
+    body .container-fluid .navbar .nav .nav-text1 .nav-item .nav-link {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 94.69%;
+      text-align: center;
+      color: #535C6D; }
+    body .container-fluid .navbar .nav .nav-text2 .nav-item .nav-link {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 94.69%;
+      text-align: center;
+      color: #535C6D; }
+    body .container-fluid .navbar .nav .nav-text3 .nav-item .nav-link {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 94.69%;
+      text-align: center;
+      color: #535C6D;
+      text-transform: capitalize; }
+  body .container-fluid .navbar-menus {
+    padding: 30px 220.5px;
+    width: 100%;
+    background-color: #535C6D;
+    height: 106px;
+    mix-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    body .container-fluid .navbar-menus .nav {
+      width: 100%;
+      display: flex;
+      justify-content: space-between; }
+      body .container-fluid .navbar-menus .nav .nav-item .nav-link {
+        width: 100%;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 22px;
+        text-transform: capitalize;
+        color: #FFFFFF; }
+  body .container-fluid .body {
+    position: relative; }
+    body .container-fluid .body .body-content {
+      background-image: url("../assets/image/room.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 411px;
+      background-blend-mode: multiply;
+      background-position: center;
+      opacity: 0.2; }
+    body .container-fluid .body .body-title {
+      display: flex;
+      position: absolute;
+      top: 175px;
+      left: 235px; }
+      body .container-fluid .body .body-title .body-text {
+        padding-right: 134px; }
+        body .container-fluid .body .body-title .body-text h5 {
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 32px;
+          line-height: 44.77px;
+          text-transform: uppercase;
+          color: #51596A;
+          width: 550px;
+          margin: 0; }
+      body .container-fluid .body .body-title .body-icon {
+        display: flex;
+        align-items: center;
+        background: #ffffff;
+        padding: 20px 25px;
+        border-radius: 7px;
+        width: 712px;
+        justify-content: space-between; }
+        body .container-fluid .body .body-title .body-icon img {
+          width: 64px;
+          height: 35.49px; }
+        body .container-fluid .body .body-title .body-icon .text {
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 24px;
+          line-height: 139.9%;
+          letter-spacing: 0.01em;
+          text-transform: capitalize;
+          color: #000000;
+          margin: 0; }
+        body .container-fluid .body .body-title .body-icon .number {
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 139.9%;
+          letter-spacing: 0.01em;
+          text-transform: capitalize;
+          color: #000000;
+          font-weight: 700;
+          margin: 0; }
+        body .container-fluid .body .body-title .body-icon p {
+          margin: 0; }
+  body .container-fluid .skills .row {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    justify-content: center; }
+    body .container-fluid .skills .row .col-9 .card {
+      background: #EBF1F4;
+      border-radius: 16px;
+      border: 0;
+      padding: 77px 85px; }
+      body .container-fluid .skills .row .col-9 .card .card-body .skills-info {
+        display: flex;
+        margin-bottom: 52px;
+        margin-left: 30px; }
+        body .container-fluid .skills .row .col-9 .card .card-body .skills-info .people-photo {
+          background: #C4C4C4;
+          border-radius: 16px;
+          width: 200px;
+          height: 239px;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+        body .container-fluid .skills .row .col-9 .card .card-body .skills-info .skills-text {
+          margin-left: 28px; }
+          body .container-fluid .skills .row .col-9 .card .card-body .skills-info .skills-text h4 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 139.9%;
+            text-transform: capitalize;
+            color: #51596A;
+            margin-bottom: 39px; }
+          body .container-fluid .skills .row .col-9 .card .card-body .skills-info .skills-text .people-name {
+            display: flex;
+            align-items: center;
+            margin-bottom: 39px; }
+            body .container-fluid .skills .row .col-9 .card .card-body .skills-info .skills-text .people-name p {
+              margin: 0;
+              margin-left: 15px; }
+          body .container-fluid .skills .row .col-9 .card .card-body .skills-info .skills-text .people-telnumber {
+            display: flex;
+            align-items: center; }
+            body .container-fluid .skills .row .col-9 .card .card-body .skills-info .skills-text .people-telnumber p {
+              margin: 0;
+              margin-left: 15px; }
+      body .container-fluid .skills .row .col-9 .card .card-body .line {
+        width: 100%;
+        height: 0;
+        border: 1px solid #BAC0C3;
+        margin-bottom: 52px; }
+  @media (max-width: 576px) {
+    body .container-fluid .navbar {
+      width: 100%;
+      padding: 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      body .container-fluid .navbar .navbar-brand img {
+        width: 40px;
+        height: 40px; }
+      body .container-fluid .navbar .navbar-brand .navbar-text h5 {
+        font-size: 10px; }
+      body .container-fluid .navbar .navbar-brand .navbar-text h4 {
+        font-size: 10px; }
+      body .container-fluid .navbar .menu-btn {
+        width: 30px;
+        height: 30px;
+        background-image: url("../assets/icons/round_hamburger_menu_burger_icon_132782.svg");
+        background-repeat: no-repeat;
+        background-size: cover; }
+      body .container-fluid .navbar .nav {
+        display: none; }
+    body .container-fluid .navbar-menus {
+      display: none; }
+    body .container-fluid .body {
+      position: relative; }
+      body .container-fluid .body .body-content {
+        width: 100%;
+        height: 103px; }
+      body .container-fluid .body .body-title {
+        position: absolute;
+        top: 10px;
+        left: 58px;
+        flex-direction: column !important;
+        display: block;
+        width: 399px; }
+        body .container-fluid .body .body-title .body-text h5 {
+          font-size: 10px;
+          height: 15px;
+          width: 100%;
+          padding: 0; }
+        body .container-fluid .body .body-title .body-icon {
+          padding: 10px 15px 10px 0;
+          background: transparent;
+          display: flex;
+          width: 419px;
+          margin: 10px 0 0 0; }
+          body .container-fluid .body .body-title .body-icon img {
+            width: 25px;
+            height: 25px; }
+          body .container-fluid .body .body-title .body-icon .text {
+            font-size: 16px; }
+          body .container-fluid .body .body-title .body-icon .number {
+            font-size: 16px; }
+    body .container-fluid .skills .row {
+      width: 100%;
+      padding: 0;
+      margin: 0; }
+      body .container-fluid .skills .row .col-9 {
+        width: 100%;
+        margin-top: 20px; }
+        body .container-fluid .skills .row .col-9 .card {
+          padding: 25px; }
+          body .container-fluid .skills .row .col-9 .card .card-body .skills-info {
+            flex-direction: column;
+            margin-left: 0; }
+            body .container-fluid .skills .row .col-9 .card .card-body .skills-info .people-photo {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              height: 145px;
+              margin-right: auto;
+              margin-left: auto; }
+              body .container-fluid .skills .row .col-9 .card .card-body .skills-info .people-photo img {
+                width: 100px; }
+            body .container-fluid .skills .row .col-9 .card .card-body .skills-info .skills-text h4 {
+              font-size: 15px;
+              margin: 10px 0; }
+            body .container-fluid .skills .row .col-9 .card .card-body .skills-info .people-name {
+              margin-bottom: 12px !important; }
+              body .container-fluid .skills .row .col-9 .card .card-body .skills-info .people-name img {
+                width: 20px; }
+              body .container-fluid .skills .row .col-9 .card .card-body .skills-info .people-name p {
+                font-size: 12px; }
+            body .container-fluid .skills .row .col-9 .card .card-body .skills-info .people-telnumber img {
+              width: 20px; }
+            body .container-fluid .skills .row .col-9 .card .card-body .skills-info .people-telnumber p {
+              font-size: 12px; }
+    body .container-fluid .line {
+      width: 100% !important; } }
+  @media (max-width: 768px) and (min-width: 576px) {
+    body .container-fluid .navbar {
+      padding: 20px 25px; }
+      body .container-fluid .navbar .navbar-brand img {
+        width: 50px;
+        height: 50px; }
+      body .container-fluid .navbar .navbar-brand .navbar-text h5 {
+        font-size: 15px; }
+      body .container-fluid .navbar .navbar-brand .navbar-text h4 {
+        font-size: 15px; }
+      body .container-fluid .navbar .menu-btn {
+        width: 30px;
+        height: 30px;
+        background-image: url("../assets/icons/round_hamburger_menu_burger_icon_132782.svg");
+        background-repeat: no-repeat;
+        background-size: cover; }
+      body .container-fluid .navbar .nav {
+        display: none; }
+    body .container-fluid .navbar-menus {
+      display: none; }
+    body .container-fluid .body .body-content {
+      width: 100%;
+      height: 134px; }
+    body .container-fluid .body .body-title {
+      flex-direction: column;
+      width: 513px;
+      top: 20px;
+      left: 40px; }
+      body .container-fluid .body .body-title .body-text h5 {
+        font-size: 15px;
+        line-height: 22.77px; }
+      body .container-fluid .body .body-title .body-icon {
+        width: 100%;
+        padding: 10px;
+        background: transparent; }
+        body .container-fluid .body .body-title .body-icon img {
+          width: 25px;
+          height: 25px; }
+        body .container-fluid .body .body-title .body-icon .text {
+          font-size: 15px; }
+        body .container-fluid .body .body-title .body-icon .number {
+          font-size: 15px; }
+        body .container-fluid .body .body-title .body-icon p {
+          font-size: 20px; }
+    body .container-fluid .skills .row {
+      width: 100%;
+      margin-top: 35px; }
+      body .container-fluid .skills .row .col-9 .card {
+        padding: 35px; }
+        body .container-fluid .skills .row .col-9 .card .card-body .skills-info {
+          flex-direction: column;
+          margin-left: 0; }
+          body .container-fluid .skills .row .col-9 .card .card-body .skills-info .people-photo {
+            height: 193px;
+            margin-left: auto;
+            margin-right: auto; }
+          body .container-fluid .skills .row .col-9 .card .card-body .skills-info .skills-text h4 {
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 20px; }
+          body .container-fluid .skills .row .col-9 .card .card-body .skills-info .skills-text .people-name {
+            margin-bottom: 20px; }
+            body .container-fluid .skills .row .col-9 .card .card-body .skills-info .skills-text .people-name img {
+              width: 20px;
+              height: 20px; }
+          body .container-fluid .skills .row .col-9 .card .card-body .skills-info .skills-text .people-telnumber img {
+            width: 20px;
+            height: 20px; } }
+  @media (min-width: 768px) and (max-width: 992px) {
+    body .container-fluid .navbar {
+      padding: 25px 30px; }
+      body .container-fluid .navbar .navbar-brand img {
+        width: 55px;
+        height: 55px; }
+      body .container-fluid .navbar .navbar-brand .navbar-text h5 {
+        font-size: 18px; }
+      body .container-fluid .navbar .navbar-brand .navbar-text h4 {
+        font-size: 18px; }
+      body .container-fluid .navbar .menu-btn {
+        width: 30px;
+        height: 30px;
+        background-image: url("../assets/icons/round_hamburger_menu_burger_icon_132782.svg");
+        background-repeat: no-repeat;
+        background-size: cover; }
+      body .container-fluid .navbar .nav {
+        display: none; }
+    body .container-fluid .navbar-menus {
+      display: none; }
+    body .container-fluid .body .body-content {
+      width: 100%;
+      height: 172px; }
+    body .container-fluid .body .body-title {
+      top: 40px;
+      left: 50px;
+      width: 500px;
+      flex-direction: column; }
+      body .container-fluid .body .body-title .body-text h5 {
+        font-size: 18px;
+        line-height: 30px; }
+      body .container-fluid .body .body-title .body-icon {
+        height: 30px;
+        background: transparent;
+        padding-left: 0;
+        justify-content: start; }
+        body .container-fluid .body .body-title .body-icon img {
+          width: 28px;
+          height: 28px; }
+        body .container-fluid .body .body-title .body-icon .text {
+          font-size: 18px;
+          margin-left: 20px;
+          margin-right: 20px; }
+        body .container-fluid .body .body-title .body-icon .number {
+          font-size: 18px;
+          margin-left: 20px; }
+        body .container-fluid .body .body-title .body-icon p {
+          font-size: 25px;
+          margin-bottom: 5px; }
+    body .container-fluid .skills .row {
+      width: 100%;
+      padding: 50px 80px;
+      margin: 0; }
+      body .container-fluid .skills .row .col-9 {
+        padding: 0; }
+        body .container-fluid .skills .row .col-9 .card {
+          padding: 25px; }
+          body .container-fluid .skills .row .col-9 .card .card-body .skills-info .people-photo {
+            height: 133px; }
+            body .container-fluid .skills .row .col-9 .card .card-body .skills-info .people-photo img {
+              width: 80px; }
+          body .container-fluid .skills .row .col-9 .card .card-body .skills-info .skills-text h4 {
+            font-size: 15px;
+            margin-bottom: 20px; }
+          body .container-fluid .skills .row .col-9 .card .card-body .skills-info .people-name {
+            margin-bottom: 20px !important; }
+            body .container-fluid .skills .row .col-9 .card .card-body .skills-info .people-name img {
+              width: 20px; }
+            body .container-fluid .skills .row .col-9 .card .card-body .skills-info .people-name p {
+              font-size: 12px; }
+          body .container-fluid .skills .row .col-9 .card .card-body .skills-info .people-telnumber img {
+            width: 20px; }
+          body .container-fluid .skills .row .col-9 .card .card-body .skills-info .people-telnumber p {
+            font-size: 12px; } }
+  @media (max-width: 1200px) and (min-width: 992px) {
+    body .container-fluid .navbar {
+      padding: 20px 30px; }
+      body .container-fluid .navbar .navbar-brand .navbar-text h5 {
+        font-size: 18px; }
+      body .container-fluid .navbar .navbar-brand .navbar-text h4 {
+        font-size: 18px; }
+      body .container-fluid .navbar .nav .nav-text1 .nav-item .nav-link {
+        padding: 10px; }
+      body .container-fluid .navbar .nav .nav-text2 .nav-item .nav-link {
+        padding: 10px; }
+      body .container-fluid .navbar .nav .nav-text3 .nav-item .nav-link {
+        padding: 10px; }
+    body .container-fluid .navbar-menus {
+      padding: 20px 30px; }
+      body .container-fluid .navbar-menus .nav {
+        justify-content: space-around; }
+        body .container-fluid .navbar-menus .nav .nav-item .nav-link {
+          font-size: 16px;
+          padding: 10px; }
+    body .container-fluid .body .body-content {
+      width: 100%;
+      height: 217px; }
+    body .container-fluid .body .body-title {
+      top: 50px;
+      left: 131px;
+      width: 695px;
+      flex-direction: column; }
+      body .container-fluid .body .body-title .body-text h5 {
+        font-size: 18px;
+        line-height: 22px; }
+      body .container-fluid .body .body-title .body-icon {
+        margin-top: 20px;
+        width: 100%;
+        height: 50px;
+        padding: 5px; }
+    body .container-fluid .skills .row {
+      width: 100%; }
+      body .container-fluid .skills .row .col-9 .card {
+        padding: 35px; }
+        body .container-fluid .skills .row .col-9 .card .card-body .skills-info .people-photo {
+          height: 165px; }
+          body .container-fluid .skills .row .col-9 .card .card-body .skills-info .people-photo img {
+            width: 85px; }
+        body .container-fluid .skills .row .col-9 .card .card-body .skills-info .skills-text h4 {
+          margin-bottom: 20px; }
+        body .container-fluid .skills .row .col-9 .card .card-body .skills-info .skills-text .people-name {
+          margin-bottom: 20px; }
+          body .container-fluid .skills .row .col-9 .card .card-body .skills-info .skills-text .people-name img {
+            width: 20px; }
+        body .container-fluid .skills .row .col-9 .card .card-body .skills-info .skills-text .people-telnumber img {
+          width: 20px; } }
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    body .container-fluid .navbar {
+      padding: 35px; }
+    body .container-fluid .navbar-menus {
+      padding: 35px; }
+      body .container-fluid .navbar-menus .nav .nav-item .nav-link {
+        padding: 10px; }
+    body .container-fluid .body .body-content {
+      width: 100%;
+      height: 292px; }
+    body .container-fluid .body .body-title {
+      top: 50px;
+      left: 175px;
+      flex-direction: column; } }
+
+/*# sourceMappingURL=section.css.map */

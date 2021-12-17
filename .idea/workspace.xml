@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed7b9c49-8e1e-440f-bbe0-1cb659ef3040" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="20S8cYnwduM059ZcqqmeivIKAdM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/icons" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\assets\icons" />
+      <recent name="D:\Project\assets\image" />
+      <recent name="D:\Project\images\icons" />
+      <recent name="D:\Project\images\image" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\css\koica" />
+      <recent name="D:\Project\css" />
+      <recent name="D:\Project\assets\icons" />
+      <recent name="D:\Project" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed7b9c49-8e1e-440f-bbe0-1cb659ef3040" name="Default Changelist" comment="" />
+      <created>1636026707640</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636026707640</updated>
+      <workItem from="1636026709499" duration="139000" />
+      <workItem from="1636026860536" duration="6028000" />
+      <workItem from="1636085841752" duration="16046000" />
+      <workItem from="1636105675365" duration="11669000" />
+      <workItem from="1636345497872" duration="12948000" />
+      <workItem from="1636450628492" duration="6298000" />
+      <workItem from="1636457200084" duration="8343000" />
+      <workItem from="1636519127196" duration="20580000" />
+      <workItem from="1636604819952" duration="20140000" />
+      <workItem from="1636630759128" duration="6224000" />
+      <workItem from="1636691046064" duration="9746000" />
+      <workItem from="1636709757354" duration="12008000" />
+      <workItem from="1636786040223" duration="4563000" />
+      <workItem from="1636950367501" duration="23989000" />
+      <workItem from="1637036165639" duration="20124000" />
+      <workItem from="1637122069145" duration="22685000" />
+      <workItem from="1637209832900" duration="21564000" />
+      <workItem from="1637295210812" duration="9927000" />
+      <workItem from="1637313461781" duration="13572000" />
+      <workItem from="1637554679765" duration="26450000" />
+      <workItem from="1637642369396" duration="6729000" />
+      <workItem from="1637649218836" duration="684000" />
+      <workItem from="1637650022456" duration="18563000" />
+      <workItem from="1637727278115" duration="22851000" />
+      <workItem from="1637814078207" duration="14247000" />
+      <workItem from="1637835549812" duration="9616000" />
+      <workItem from="1637901895751" duration="2498000" />
+      <workItem from="1637907838680" duration="17125000" />
+      <workItem from="1638159702541" duration="23316000" />
+      <workItem from="1638248143100" duration="12394000" />
+      <workItem from="1638267753170" duration="5052000" />
+      <workItem from="1638273049534" duration="4548000" />
+      <workItem from="1638331695423" duration="24817000" />
+      <workItem from="1638419026429" duration="18837000" />
+      <workItem from="1638504530297" duration="8991000" />
+      <workItem from="1638525625424" duration="10174000" />
+      <workItem from="1638765123964" duration="8210000" />
+      <workItem from="1638773734867" duration="14629000" />
+      <workItem from="1638851453021" duration="21127000" />
+      <workItem from="1639023191365" duration="21977000" />
+      <workItem from="1639111844337" duration="7320000" />
+      <workItem from="1639130479424" duration="10441000" />
+      <workItem from="1639368940402" duration="27870000" />
+      <workItem from="1639455024701" duration="25713000" />
+      <workItem from="1639627883109" duration="12698000" />
+      <workItem from="1639714151788" duration="1721000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

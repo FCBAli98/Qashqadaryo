@@ -1,0 +1,561 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,900&display=swap");
+body {
+  padding: 0;
+  margin: 0; }
+  body .container-fluid {
+    padding: 0; }
+    body .container-fluid .navbar {
+      width: 100%;
+      padding: 23px 217px 23px 218px; }
+      body .container-fluid .navbar .navbar-brand {
+        display: flex;
+        align-items: center; }
+        body .container-fluid .navbar .navbar-brand img {
+          width: 76px;
+          height: 76px; }
+        body .container-fluid .navbar .navbar-brand .navbar-text {
+          margin-left: 11px; }
+          body .container-fluid .navbar .navbar-brand .navbar-text h5 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 116.4%;
+            text-transform: uppercase;
+            color: #4883A5; }
+          body .container-fluid .navbar .navbar-brand .navbar-text h4 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 20px;
+            line-height: 116.4%;
+            text-transform: uppercase;
+            color: #4883A5; }
+      body .container-fluid .navbar .nav .nav-text1 .nav-item .nav-link {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 94.69%;
+        text-align: center;
+        color: #535C6D; }
+      body .container-fluid .navbar .nav .nav-text2 .nav-item .nav-link {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 94.69%;
+        text-align: center;
+        color: #535C6D; }
+      body .container-fluid .navbar .nav .nav-text3 .nav-item .nav-link {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 94.69%;
+        text-align: center;
+        color: #535C6D;
+        text-transform: capitalize; }
+    body .container-fluid .navbar-menus {
+      padding: 30px 220.5px;
+      width: 100%;
+      background-color: #535C6D;
+      height: 106px;
+      mix-blend-mode: multiply;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      body .container-fluid .navbar-menus .nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between; }
+        body .container-fluid .navbar-menus .nav .nav-item .nav-link {
+          width: 100%;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 23px;
+          line-height: 22px;
+          text-transform: capitalize;
+          color: #FFFFFF; }
+    body .container-fluid .body {
+      position: relative; }
+      body .container-fluid .body .body-content {
+        width: 100%;
+        height: 736px;
+        background-image: url("../assets/image/body-img.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; }
+      body .container-fluid .body .body-text {
+        position: absolute;
+        top: 274px;
+        left: 235px; }
+        body .container-fluid .body .body-text p {
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 32px;
+          line-height: 139.9%;
+          text-transform: uppercase;
+          color: #51596A;
+          width: 571px; }
+    body .container-fluid .skills {
+      width: 100%;
+      position: relative; }
+      body .container-fluid .skills .row {
+        top: -220px;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        position: absolute; }
+        body .container-fluid .skills .row .col-9 {
+          padding: 0; }
+          body .container-fluid .skills .row .col-9 .card {
+            background: #EBF1F4;
+            border: 0;
+            padding: 25px 103px; }
+            body .container-fluid .skills .row .col-9 .card .card-header {
+              background-color: transparent;
+              padding-top: 28px;
+              border-bottom: 0; }
+              body .container-fluid .skills .row .col-9 .card .card-header .title {
+                text-align: center; }
+                body .container-fluid .skills .row .col-9 .card .card-header .title h5 {
+                  font-family: Roboto;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 32px;
+                  line-height: 109.9%;
+                  text-transform: capitalize;
+                  color: #51596A;
+                  width: 736px;
+                  margin-left: auto;
+                  margin-right: auto; }
+            body .container-fluid .skills .row .col-9 .card .card-body .row {
+              width: 100%;
+              justify-content: center;
+              text-align: center;
+              position: relative;
+              top: 0; }
+              body .container-fluid .skills .row .col-9 .card .card-body .row .col-4 {
+                width: 100%;
+                height: 100%;
+                align-items: center;
+                justify-content: center; }
+                body .container-fluid .skills .row .col-9 .card .card-body .row .col-4 .box {
+                  border: 1px solid black !important;
+                  width: 361px !important;
+                  height: 111px !important;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  margin-bottom: 70px;
+                  margin-right: auto;
+                  margin-left: auto;
+                  padding: 12px 34px;
+                  position: relative; }
+                  body .container-fluid .skills .row .col-9 .card .card-body .row .col-4 .box h4 {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 109.9%;
+                    text-transform: capitalize;
+                    color: #51596A; }
+                  body .container-fluid .skills .row .col-9 .card .card-body .row .col-4 .box p {
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    padding: 8px;
+                    margin-bottom: 0; }
+                body .container-fluid .skills .row .col-9 .card .card-body .row .col-4 .line {
+                  border: 1px dashed black; }
+              body .container-fluid .skills .row .col-9 .card .card-body .row .col-4:nth-child(10) {
+                width: 100%;
+                height: 100%;
+                align-items: center;
+                justify-content: center; }
+                body .container-fluid .skills .row .col-9 .card .card-body .row .col-4:nth-child(10) .box {
+                  border: 1px dashed black !important;
+                  width: 361px !important;
+                  height: 111px !important;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  margin-bottom: 70px;
+                  margin-right: auto;
+                  margin-left: auto;
+                  padding: 12px 34px; }
+                  body .container-fluid .skills .row .col-9 .card .card-body .row .col-4:nth-child(10) .box h4 {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 109.9%;
+                    text-transform: capitalize;
+                    color: #51596A; }
+                body .container-fluid .skills .row .col-9 .card .card-body .row .col-4:nth-child(10) .line {
+                  border: 1px dashed black; }
+              body .container-fluid .skills .row .col-9 .card .card-body .row .col-4:nth-child(11) {
+                width: 100%;
+                height: 100%;
+                align-items: center;
+                justify-content: center; }
+                body .container-fluid .skills .row .col-9 .card .card-body .row .col-4:nth-child(11) .box {
+                  border: 1px dashed black !important;
+                  width: 361px !important;
+                  height: 111px !important;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  margin-bottom: 70px;
+                  margin-right: auto;
+                  margin-left: auto;
+                  padding: 12px 34px; }
+                  body .container-fluid .skills .row .col-9 .card .card-body .row .col-4:nth-child(11) .box h4 {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 109.9%;
+                    text-transform: capitalize;
+                    color: #51596A; }
+                body .container-fluid .skills .row .col-9 .card .card-body .row .col-4:nth-child(11) .line {
+                  border: 1px dashed black; }
+              body .container-fluid .skills .row .col-9 .card .card-body .row .col-4:nth-child(15) {
+                width: 100%;
+                height: 100%;
+                align-items: center;
+                justify-content: center; }
+                body .container-fluid .skills .row .col-9 .card .card-body .row .col-4:nth-child(15) .box {
+                  border: 1px dashed black !important;
+                  width: 361px !important;
+                  height: 111px !important;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  margin-bottom: 70px;
+                  margin-right: auto;
+                  margin-left: auto;
+                  padding: 12px 34px; }
+                  body .container-fluid .skills .row .col-9 .card .card-body .row .col-4:nth-child(15) .box h4 {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 109.9%;
+                    text-transform: capitalize;
+                    color: #51596A; }
+                body .container-fluid .skills .row .col-9 .card .card-body .row .col-4:nth-child(15) .line {
+                  border: 1px dashed black; }
+              body .container-fluid .skills .row .col-9 .card .card-body .row .col-4:nth-child(18) {
+                width: 100%;
+                height: 100%;
+                align-items: center;
+                justify-content: center; }
+                body .container-fluid .skills .row .col-9 .card .card-body .row .col-4:nth-child(18) .box {
+                  border: 1px dashed black !important;
+                  width: 361px !important;
+                  height: 111px !important;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  margin-bottom: 70px;
+                  margin-right: auto;
+                  margin-left: auto;
+                  padding: 12px 34px; }
+                  body .container-fluid .skills .row .col-9 .card .card-body .row .col-4:nth-child(18) .box h4 {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 109.9%;
+                    text-transform: capitalize;
+                    color: #51596A; }
+                body .container-fluid .skills .row .col-9 .card .card-body .row .col-4:nth-child(18) .line {
+                  border: 1px dashed black; }
+              body .container-fluid .skills .row .col-9 .card .card-body .row .col-4:nth-child(20) {
+                width: 100%;
+                height: 100%;
+                align-items: center;
+                justify-content: center; }
+                body .container-fluid .skills .row .col-9 .card .card-body .row .col-4:nth-child(20) .box {
+                  border: 1px dashed black !important;
+                  width: 361px !important;
+                  height: 111px !important;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  margin-bottom: 70px;
+                  margin-right: auto;
+                  margin-left: auto;
+                  padding: 12px 34px; }
+                  body .container-fluid .skills .row .col-9 .card .card-body .row .col-4:nth-child(20) .box h4 {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 109.9%;
+                    text-transform: capitalize;
+                    color: #51596A; }
+                body .container-fluid .skills .row .col-9 .card .card-body .row .col-4:nth-child(20) .line {
+                  border: 1px dashed black; }
+            body .container-fluid .skills .row .col-9 .card .card-footer {
+              width: 100%;
+              background: transparent;
+              border-top: 0; }
+              body .container-fluid .skills .row .col-9 .card .card-footer .footer-title {
+                text-align: center; }
+                body .container-fluid .skills .row .col-9 .card .card-footer .footer-title p {
+                  width: 425px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  font-family: Roboto;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 20px;
+                  line-height: 109.9%;
+                  text-transform: lowercase;
+                  color: #51596A; }
+                body .container-fluid .skills .row .col-9 .card .card-footer .footer-title h5 {
+                  font-family: Roboto;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 20px;
+                  line-height: 109.9%;
+                  text-transform: lowercase;
+                  color: #51596A;
+                  width: 100%; }
+    @media (max-width: 576px) {
+      body .container-fluid .navbar {
+        padding: 10px 25px;
+        width: 100%; }
+        body .container-fluid .navbar .navbar-brand img {
+          width: 40px;
+          height: 40px; }
+        body .container-fluid .navbar .navbar-brand .navbar-text h4 {
+          font-size: 10px; }
+        body .container-fluid .navbar .navbar-brand .navbar-text h5 {
+          font-size: 10px; }
+        body .container-fluid .navbar .menu-btn {
+          width: 30px;
+          height: 30px;
+          background-image: url("../assets/icons/round_hamburger_menu_burger_icon_132782.svg");
+          background-size: cover;
+          background-repeat: no-repeat; }
+        body .container-fluid .navbar .nav {
+          display: none; }
+      body .container-fluid .navbar-menus {
+        display: none; }
+      body .container-fluid .body .body-content {
+        width: 100%;
+        height: 159px; }
+      body .container-fluid .body .body-text {
+        top: 35px;
+        left: 40px; }
+        body .container-fluid .body .body-text p {
+          width: 165px;
+          font-size: 15px; }
+      body .container-fluid .skills .row {
+        width: 100%;
+        top: -45px;
+        margin: 0; }
+        body .container-fluid .skills .row .col-9 {
+          width: 100%; }
+          body .container-fluid .skills .row .col-9 .card {
+            padding: 25px; }
+            body .container-fluid .skills .row .col-9 .card .card-header .title h5 {
+              font-size: 13px;
+              width: 100%; }
+            body .container-fluid .skills .row .col-9 .card .card-body .row {
+              width: 100%;
+              margin: 0;
+              flex-direction: column; }
+              body .container-fluid .skills .row .col-9 .card .card-body .row .col-4 {
+                max-width: 100%;
+                margin: 0; }
+                body .container-fluid .skills .row .col-9 .card .card-body .row .col-4 .box {
+                  max-width: 100%; }
+                  body .container-fluid .skills .row .col-9 .card .card-body .row .col-4 .box h4 {
+                    font-size: 12px !important; }
+            body .container-fluid .skills .row .col-9 .card .card-footer .footer-title p {
+              width: 100%;
+              font-size: 12px; }
+            body .container-fluid .skills .row .col-9 .card .card-footer .footer-title h5 {
+              font-size: 12px; } }
+    @media (max-width: 768px) and (min-width: 576px) {
+      body .container-fluid .navbar {
+        padding: 10px 25px; }
+        body .container-fluid .navbar .navbar-brand img {
+          width: 45px;
+          height: 45px; }
+        body .container-fluid .navbar .navbar-brand .navbar-text h4 {
+          font-size: 15px; }
+        body .container-fluid .navbar .navbar-brand .navbar-text h5 {
+          font-size: 15px; }
+        body .container-fluid .navbar .menu-btn {
+          width: 30px;
+          height: 30px;
+          background-image: url("../assets/icons/round_hamburger_menu_burger_icon_132782.svg");
+          background-size: cover;
+          background-repeat: no-repeat; }
+        body .container-fluid .navbar .nav {
+          display: none; }
+      body .container-fluid .navbar-menus {
+        display: none; }
+      body .container-fluid .body .body-content {
+        width: 100%;
+        height: 240px; }
+      body .container-fluid .body .body-text {
+        top: 62px;
+        left: 75px; }
+        body .container-fluid .body .body-text p {
+          font-size: 18px;
+          width: 115px; }
+      body .container-fluid .skills .row {
+        margin: 0;
+        width: 100%;
+        top: -67px; }
+        body .container-fluid .skills .row .col-9 .card {
+          padding: 25px; }
+          body .container-fluid .skills .row .col-9 .card .card-header .title h5 {
+            width: 100%;
+            font-size: 18px; }
+          body .container-fluid .skills .row .col-9 .card .card-body .row {
+            width: 100%;
+            margin: 0;
+            flex-direction: column; }
+            body .container-fluid .skills .row .col-9 .card .card-body .row .col-4 {
+              margin: 0;
+              max-width: 100%;
+              padding: 0; }
+              body .container-fluid .skills .row .col-9 .card .card-body .row .col-4 .box h4 {
+                font-size: 15px !important; }
+          body .container-fluid .skills .row .col-9 .card .card-footer .footer-title {
+            text-align: center;
+            padding: 0;
+            width: 100%; }
+            body .container-fluid .skills .row .col-9 .card .card-footer .footer-title p {
+              font-size: 18px;
+              width: 100%; }
+            body .container-fluid .skills .row .col-9 .card .card-footer .footer-title h5 {
+              font-size: 18px; } }
+    @media (min-width: 768px) and (max-width: 992px) {
+      body .container-fluid .navbar {
+        padding: 15px 30px; }
+        body .container-fluid .navbar .menu-btn {
+          width: 30px;
+          height: 30px;
+          background-image: url("../assets/icons/round_hamburger_menu_burger_icon_132782.svg");
+          background-repeat: no-repeat;
+          background-size: cover; }
+        body .container-fluid .navbar .nav {
+          display: none; }
+      body .container-fluid .navbar-menus {
+        display: none; }
+      body .container-fluid .body {
+        width: 100%; }
+        body .container-fluid .body .body-content {
+          width: 100%;
+          height: 309px; }
+        body .container-fluid .body .body-text {
+          top: 90px;
+          left: 120px; }
+          body .container-fluid .body .body-text p {
+            font-size: 20px;
+            width: 120px; }
+      body .container-fluid .skills .row {
+        width: 100%;
+        top: -84px;
+        margin: 0; }
+        body .container-fluid .skills .row .col-9 .card {
+          padding: 25px; }
+          body .container-fluid .skills .row .col-9 .card .card-header .title h5 {
+            width: 100%;
+            font-size: 18px; }
+          body .container-fluid .skills .row .col-9 .card .card-body .row {
+            flex-direction: column; }
+            body .container-fluid .skills .row .col-9 .card .card-body .row .col-4 {
+              max-width: 100%;
+              margin: 0; }
+          body .container-fluid .skills .row .col-9 .card .card-footer .footer-title p {
+            font-size: 18px; }
+          body .container-fluid .skills .row .col-9 .card .card-footer .footer-title h5 {
+            font-size: 18px; } }
+    @media (min-width: 992px) and (max-width: 1200px) {
+      body .container-fluid .navbar {
+        padding: 15px 25px; }
+        body .container-fluid .navbar .nav .nav-item .nav-link {
+          padding: 10px; }
+      body .container-fluid .navbar-menus {
+        padding: 25px; }
+        body .container-fluid .navbar-menus .nav {
+          justify-content: space-around; }
+          body .container-fluid .navbar-menus .nav .nav-item .nav-link {
+            padding: 10px;
+            font-size: 18px; }
+      body .container-fluid .body .body-content {
+        width: 100%;
+        height: 418px; }
+      body .container-fluid .body .body-text {
+        top: 151px;
+        left: 100px; }
+        body .container-fluid .body .body-text p {
+          font-size: 20px; }
+      body .container-fluid .skills .row {
+        margin: 0;
+        width: 100%;
+        top: -127px; }
+        body .container-fluid .skills .row .col-9 .card {
+          padding: 30px; }
+          body .container-fluid .skills .row .col-9 .card .card-header .title h5 {
+            width: 581px;
+            font-size: 25px; }
+          body .container-fluid .skills .row .col-9 .card .card-body .row {
+            flex-direction: column; }
+            body .container-fluid .skills .row .col-9 .card .card-body .row .col-4 {
+              max-width: 100%;
+              margin: 0; }
+          body .container-fluid .skills .row .col-9 .card .card-footer .footer-title p {
+            font-size: 20px; }
+          body .container-fluid .skills .row .col-9 .card .card-footer .footer-title h5 {
+            font-size: 20px; } }
+    @media (min-width: 1200px) and (max-width: 1400px) {
+      body .container-fluid .navbar {
+        padding: 20px 30px; }
+      body .container-fluid .navbar-menus {
+        padding: 20px 30px; }
+        body .container-fluid .navbar-menus .nav .nav-item .nav-link {
+          padding: 10px;
+          font-size: 20px; }
+      body .container-fluid .body .body-content {
+        width: 100%;
+        height: 480px; }
+      body .container-fluid .body .body-text {
+        top: 180px;
+        left: 70px; }
+        body .container-fluid .body .body-text p {
+          font-size: 28px; }
+      body .container-fluid .skills .row {
+        width: 100%;
+        top: -148px;
+        margin: 0;
+        padding: 0; }
+        body .container-fluid .skills .row .col-9 .card {
+          padding: 30px; }
+          body .container-fluid .skills .row .col-9 .card .card-header .title h5 {
+            width: 100%;
+            font-size: 30px; }
+          body .container-fluid .skills .row .col-9 .card .card-body .row {
+            width: 100%; }
+            body .container-fluid .skills .row .col-9 .card .card-body .row .col-4 {
+              max-width: 33%; }
+              body .container-fluid .skills .row .col-9 .card .card-body .row .col-4 .box {
+                max-width: 100%;
+                padding: 20px; }
+                body .container-fluid .skills .row .col-9 .card .card-body .row .col-4 .box h4 {
+                  font-size: 14px !important; } }
+
+/*# sourceMappingURL=basic.css.map */
