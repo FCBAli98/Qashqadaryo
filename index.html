@@ -6,101 +6,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-
 </head>
 <body>
 <div class="container-fluid">
 
     <div class="navbar">
-        <div class="navbar-brand">
-            <img src="assets/icons/Grb.png" alt="error">
-            <div class="navbar-text">
-                <h5>Қашқадарё вилояти</h5>
-                <h4>Бандлик бош бошқармаси</h4>
+        <div class="container">
+            <div class="navbar-brand">
+                <img src="assets/icons/gerb111111.svg" alt="error">
+                <div class="navbar-text">
+                    <h5>Қашқадарё вилояти</h5>
+                    <h4>Бандлик бош бошқармаси</h4>
+                </div>
             </div>
+            <div class="menu-btn" id="menu"></div>
+            <ul class="nav" id="nav-menu">
+                <div class="nav-text2 d-flex align-items-center">
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="assets/icons/miniphone.svg" alt="error"></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="assets/icons/glesses.svg" alt="error"></a></li>
+                </div>
+                <div class="nav-text3 d-flex align-items-center">
+                    <li class="nav-item"><a href="#" class="nav-link">O'zb</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">ўзб</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="assets/icons/search.svg" alt="error"></a></li>
+                </div>
+            </ul>
         </div>
-        <div class="menu-btn" id="menu"></div>
-        <ul class="nav" id="nav-menu">
-            <div class="nav-text1 d-flex align-items-center">
-                <li class="nav-item"><a href="#" class="nav-link"><img src="assets/icons/phone.svg" alt="error"></a></li>
-                <li class="nav-item"><a href="#" class="nav-link">+998(71) 233-22-00</a></li>
-            </div>
-            <div class="nav-text2 d-flex align-items-center">
-                <li class="nav-item"><a href="#" class="nav-link"><img src="assets/icons/miniphone.svg" alt="error"></a></li>
-                <li class="nav-item"><a href="#" class="nav-link"><img src="assets/icons/glesses.svg" alt="error"></a></li>
-            </div>
-            <div class="nav-text3 d-flex align-items-center">
-                <li class="nav-item"><a href="#" class="nav-link">рус</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">ўзб</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">eng</a></li>
-                <li class="nav-item"><a href="#" class="nav-link"><img src="assets/icons/search.svg" alt="error"></a></li>
-            </div>
-        </ul>
     </div>
 <!-- desctop-->
-    <div class="navbar-menus navbar-expand-sm">
-        <ul class="nav">
-            <li class="nav-item"><a href="#" class="nav-link">Бошқарма</a>
+    <div class="navbar-menus navbar-expand-sm" id="scroll">
+      <div class="container">
+          <ul class="nav">
+              <li class="nav-item"><a href="#" class="nav-link">Бошқарма</a>
 
-                <ul class="nav">
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/work.html')">Бошқарма ҳақида</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/Contact.html')">Раҳбарият</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/employees.html')">Ҳодимлар</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/basic.html')">Бошқарма тузилмаси</a></li>
-                    <li class="nav-item border-bottom-0"><a href="#" class="nav-link" onclick="locatt('/index.html')">Фаолият йўналишлари</a></li>
-                </ul>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/Territorial divisions.html')">Ҳудудий бўлимлар</a>
-                <ul class="nav">
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Қарши шаҳри</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Шаҳрисабз шаҳри</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Ғузор тумани</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Деҳқонобод тумани</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Касби тумани</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Китоб тумани</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Косон тумани</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Қамаши тумани</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Қарши тумани</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Миришкор тумани</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Муборак тумани</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Нишон тумани</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Чироқчи тумани</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Шаҳрисабз тумани</a></li>
-                    <li class="nav-item border-bottom-0"><a href="#" class="nav-link" onclick="locatt('/.html')">Яккабоғ тумани</a></li>
-                </ul>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/section.html')">Касбга ўқитиш</a>
-                <ul class="nav">
-                    <li class="nav-item h-100"><a href="#" class="nav-link h-100" onclick="locatt('/mono.html')">“Ишга Марҳамат” Мономарказ</a></li>
-                    <li class="nav-item h-100"><a href="#" class="nav-link h-100" onclick="locatt('/koica.html')">KOICA</a></li>
-                    <li class="nav-item border-bottom-0"><a href="#" class="nav-link h-100" onclick="locatt('/article.html')">Деҳқонобод тумани касб-ҳунарга ўқитиш маркази</a></li>
-                </ul>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link">Матбуот маркази</a>
-                <ul class="nav">
-                    <li class="nav-item"><a href="#" class="nav-link">Янгиликлар</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Фотогалерия</a></li>
-                    <li class="nav-item border-bottom-0"><a href="#" class="nav-link">Видеогалерия</a></li>
-                </ul>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link">Меъёрий-ҳуқуқий хужжатлар</a>
-               <ul class="nav">
-                   <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/law.html')">Ўзбекистон Республикаси қонунлари</a></li>
-                   <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/note.html')">Ўзбекистон Республикаси Президенти Фармон ва Қарорлари</a></li>
-                   <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/minister.html')">Ўзбекистон Республикаси Вазирлар Маҳкамаси  Қарорлари</a></li>
-                   <li class="nav-item border-bottom-0"><a href="#" class="nav-link" onclick="locatt('/end.html')">Ўзбекистон Республикаси Бандлик ва меҳнат муносабатлари вазирлиги меъёрий хужжатлари</a></li>
-               </ul>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link">Боғланиш</a>
+                  <ul class="nav">
+                      <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/work.html')">Бошқарма ҳақида</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/Contact.html')">Раҳбарият</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/employees.html')">Ҳодимлар</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/basic.html')">Бошқарма тузилмаси</a></li>
+                      <li class="nav-item border-bottom-0"><a href="#" class="nav-link" onclick="locatt('/index.html')">Фаолият йўналишлари</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/Territorial divisions.html')">Ҳудудий бўлимлар</a>
+                  <ul class="nav">
+                      <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Қарши шаҳри</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Шаҳрисабз шаҳри</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Ғузор тумани</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Деҳқонобод тумани</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Касби тумани</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Китоб тумани</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Косон тумани</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Қамаши тумани</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Қарши тумани</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Миришкор тумани</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Муборак тумани</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Нишон тумани</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Чироқчи тумани</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Шаҳрисабз тумани</a></li>
+                      <li class="nav-item border-bottom-0"><a href="#" class="nav-link" onclick="locatt('/.html')">Яккабоғ тумани</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/section.html')">Касбга ўқитиш</a>
+                  <ul class="nav">
+                      <li class="nav-item h-100"><a href="#" class="nav-link h-100" onclick="locatt('/mono.html')">“Ишга Марҳамат” Мономарказ</a></li>
+                      <li class="nav-item h-100"><a href="#" class="nav-link h-100" onclick="locatt('/koica.html')">KOICA</a></li>
+                      <li class="nav-item border-bottom-0"><a href="#" class="nav-link h-100" onclick="locatt('/article.html')">Деҳқонобод тумани касб-ҳунарга ўқитиш маркази</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">Матбуот маркази</a>
+                  <ul class="nav">
+                      <li class="nav-item"><a href="#" class="nav-link">Янгиликлар</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link">Фотогалерия</a></li>
+                      <li class="nav-item border-bottom-0"><a href="#" class="nav-link">Видеогалерия</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">Меъёрий-ҳуқуқий хужжатлар</a>
+                  <ul class="nav">
+                      <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/law.html')">Ўзбекистон Республикаси қонунлари</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/note.html')">Ўзбекистон Республикаси Президенти Фармон ва Қарорлари</a></li>
+                      <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/minister.html')">Ўзбекистон Республикаси Вазирлар Маҳкамаси  Қарорлари</a></li>
+                      <li class="nav-item border-bottom-0"><a href="#" class="nav-link" onclick="locatt('/end.html')">Ўзбекистон Республикаси Бандлик ва меҳнат муносабатлари вазирлиги меъёрий хужжатлари</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">Боғланиш</a>
 
-            </li>
-        </ul>
+              </li>
+          </ul>
+      </div>
     </div>
 <!-- mobile version-->
-    <div class="navbar-menus" id="nav">
+    <div class="navbar-menus d-none" id="nav">
         <ul class="nav">
             <li class="nav-item">
                 <a href="#demo" class="nav-link" data-toggle="collapse">Бошқарма</a>
@@ -163,265 +162,306 @@
             </li>
         </ul>
     </div>
-
-
     <div class="main">
         <div class="main-content"></div>
         <div class="main-text">
-            <h4>Қашқадарё вилояти Бандлик бош бошқармаси</h4>
-        </div>
-    </div>
-    <div class="body">
-        <div class="body-content"></div>
-        <div class="body-rgb"></div>
-        <div class="body-text">
-            <h5>Ҳудудий бўлимлар</h5>
+            <h4>Қашқадарё вилояти Бандлик</h4>
+            <h5> бош бошқармаси</h5>
         </div>
     </div>
     <div class="skills">
-        <div class="skills-next">
-            <h4>
-                Барча ҳудудий бўлимлар
-                <span><img src="assets/icons/next.svg" alt="error"></span>
-            </h4>
-        </div>
-        <div class="row w-100">
-            <div class="col-6">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="city-photo"></div>
-                        <div class="skills-info">
-                            <div class="skills-text d-flex align-items-center mb-2">
-                                <h4>Қарши</h4>
-                                <h5> шаҳри</h5>
+        <div class="container">
+            <div class="skills-section">
+                <h4 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Ҳудудий бўлимлар</h4>
+            </div>
+            <div class="row w-100">
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
+                            <div class="city-photo"></div>
+                            <div class="skills-info">
+                                <div class="skills-text d-flex align-items-center mb-3">
+                                    <h4>Қарши</h4>
+                                    <h5> шаҳри</h5>
+                                </div>
+                                <div class="people-name d-flex align-items-center mb-3">
+                                    <img src="assets/icons/skelet.svg" alt="error">
+                                    <p>Узаков Дилшод Серабович</p>
+                                </div>
+                                <div class="navigation d-flex align-items-center mb-3">
+                                    <img src="assets/icons/navigation.svg" alt="error">
+                                    <p>Қашқадарё вилояти, Қарши шаҳри, Хонобод кўчаси, 46 уй</p>
+                                </div>
+                                <div class="people-telnumber d-flex align-items-center">
+                                    <img src="assets/icons/phone.svg" alt="error">
+                                    <p>+99893 900-80-09</p>
+                                </div>
                             </div>
-                            <div class="people-name d-flex align-items-center mb-2">
-                                <img src="assets/icons/skelet.svg" alt="error">
-                                <p>Узаков Дилшод Серабович</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
+                            <div class="city-photo"></div>
+                            <div class="skills-info">
+                                <div class="skills-text d-flex align-items-center mb-2">
+                                    <h4>Қарши</h4>
+                                    <h5> шаҳри</h5>
+                                </div>
+                                <div class="people-name d-flex align-items-center mb-2">
+                                    <img src="assets/icons/skelet.svg" alt="error">
+                                    <p>Узаков Дилшод Серабович</p>
+                                </div>
+                                <div class="navigation d-flex align-items-center mb-2">
+                                    <img src="assets/icons/navigation.svg" alt="error">
+                                    <p>Қашқадарё вилояти, Қарши шаҳри, Хонобод кўчаси, 46 уй</p>
+                                </div>
+                                <div class="people-telnumber d-flex align-items-center">
+                                    <img src="assets/icons/phone.svg" alt="error">
+                                    <p>+99893 900-80-09</p>
+                                </div>
                             </div>
-                            <div class="navigation d-flex align-items-center mb-2">
-                                <img src="assets/icons/navigation.svg" alt="error">
-                                <p>Қашқадарё вилояти, Қарши шаҳри, Хонобод кўчаси, 46 уй</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body" data-aos="fade-up-right" data-aos-delay="100" data-aos-duration="1000">
+                            <div class="city-photo"></div>
+                            <div class="skills-info">
+                                <div class="skills-text d-flex align-items-center mb-2">
+                                    <h4>Қарши</h4>
+                                    <h5> шаҳри</h5>
+                                </div>
+                                <div class="people-name d-flex align-items-center mb-2">
+                                    <img src="assets/icons/skelet.svg" alt="error">
+                                    <p>Узаков Дилшод Серабович</p>
+                                </div>
+                                <div class="navigation d-flex align-items-center mb-2">
+                                    <img src="assets/icons/navigation.svg" alt="error">
+                                    <p>Қашқадарё вилояти, Қарши шаҳри, Хонобод кўчаси, 46 уй</p>
+                                </div>
+                                <div class="people-telnumber d-flex align-items-center">
+                                    <img src="assets/icons/phone.svg" alt="error">
+                                    <p>+99893 900-80-09</p>
+                                </div>
                             </div>
-                            <div class="people-telnumber d-flex align-items-center">
-                                <img src="assets/icons/phone.svg" alt="error">
-                                <p>+99893 900-80-09</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body"  data-aos="fade-up-left" data-aos-delay="100" data-aos-duration="1000">
+                            <div class="city-photo"></div>
+                            <div class="skills-info">
+                                <div class="skills-text d-flex align-items-center mb-2">
+                                    <h4>Қарши</h4>
+                                    <h5> шаҳри</h5>
+                                </div>
+                                <div class="people-name d-flex align-items-center mb-2">
+                                    <img src="assets/icons/skelet.svg" alt="error">
+                                    <p>Узаков Дилшод Серабович</p>
+                                </div>
+                                <div class="navigation d-flex align-items-center mb-2">
+                                    <img src="assets/icons/navigation.svg" alt="error">
+                                    <p>Қашқадарё вилояти, Қарши шаҳри, Хонобод кўчаси, 46 уй</p>
+                                </div>
+                                <div class="people-telnumber d-flex align-items-center">
+                                    <img src="assets/icons/phone.svg" alt="error">
+                                    <p>+99893 900-80-09</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-6">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="city-photo"></div>
-                        <div class="skills-info">
-                            <div class="skills-text d-flex align-items-center mb-2">
-                                <h4>Қарши</h4>
-                                <h5> шаҳри</h5>
-                            </div>
-                            <div class="people-name d-flex align-items-center mb-2">
-                                <img src="assets/icons/skelet.svg" alt="error">
-                                <p>Узаков Дилшод Серабович</p>
-                            </div>
-                            <div class="navigation d-flex align-items-center mb-2">
-                                <img src="assets/icons/navigation.svg" alt="error">
-                                <p>Қашқадарё вилояти, Қарши шаҳри, Хонобод кўчаси, 46 уй</p>
-                            </div>
-                            <div class="people-telnumber d-flex align-items-center">
-                                <img src="assets/icons/phone.svg" alt="error">
-                                <p>+99893 900-80-09</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="city-photo"></div>
-                        <div class="skills-info">
-                            <div class="skills-text d-flex align-items-center mb-2">
-                                <h4>Қарши</h4>
-                                <h5> шаҳри</h5>
-                            </div>
-                            <div class="people-name d-flex align-items-center mb-2">
-                                <img src="assets/icons/skelet.svg" alt="error">
-                                <p>Узаков Дилшод Серабович</p>
-                            </div>
-                            <div class="navigation d-flex align-items-center mb-2">
-                                <img src="assets/icons/navigation.svg" alt="error">
-                                <p>Қашқадарё вилояти, Қарши шаҳри, Хонобод кўчаси, 46 уй</p>
-                            </div>
-                            <div class="people-telnumber d-flex align-items-center">
-                                <img src="assets/icons/phone.svg" alt="error">
-                                <p>+99893 900-80-09</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="city-photo"></div>
-                        <div class="skills-info">
-                            <div class="skills-text d-flex align-items-center mb-2">
-                                <h4>Қарши</h4>
-                                <h5> шаҳри</h5>
-                            </div>
-                            <div class="people-name d-flex align-items-center mb-2">
-                                <img src="assets/icons/skelet.svg" alt="error">
-                                <p>Узаков Дилшод Серабович</p>
-                            </div>
-                            <div class="navigation d-flex align-items-center mb-2">
-                                <img src="assets/icons/navigation.svg" alt="error">
-                                <p>Қашқадарё вилояти, Қарши шаҳри, Хонобод кўчаси, 46 уй</p>
-                            </div>
-                            <div class="people-telnumber d-flex align-items-center">
-                                <img src="assets/icons/phone.svg" alt="error">
-                                <p>+99893 900-80-09</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="city-photo"></div>
-                        <div class="skills-info">
-                            <div class="skills-text d-flex align-items-center mb-2">
-                                <h4>Қарши</h4>
-                                <h5> шаҳри</h5>
-                            </div>
-                            <div class="people-name d-flex align-items-center mb-2">
-                                <img src="assets/icons/skelet.svg" alt="error">
-                                <p>Узаков Дилшод Серабович</p>
-                            </div>
-                            <div class="navigation d-flex align-items-center mb-2">
-                                <img src="assets/icons/navigation.svg" alt="error">
-                                <p>Қашқадарё вилояти, Қарши шаҳри, Хонобод кўчаси, 46 уй</p>
-                            </div>
-                            <div class="people-telnumber d-flex align-items-center">
-                                <img src="assets/icons/phone.svg" alt="error">
-                                <p>+99893 900-80-09</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="city-photo"></div>
-                        <div class="skills-info">
-                            <div class="skills-text d-flex align-items-center mb-2">
-                                <h4>Қарши</h4>
-                                <h5> шаҳри</h5>
-                            </div>
-                            <div class="people-name d-flex align-items-center mb-2">
-                                <img src="assets/icons/skelet.svg" alt="error">
-                                <p>Узаков Дилшод Серабович</p>
-                            </div>
-                            <div class="navigation d-flex align-items-center mb-2">
-                                <img src="assets/icons/navigation.svg" alt="error">
-                                <p>Қашқадарё вилояти, Қарши шаҳри, Хонобод кўчаси, 46 уй</p>
-                            </div>
-                            <div class="people-telnumber d-flex align-items-center">
-                                <img src="assets/icons/phone.svg" alt="error">
-                                <p>+99893 900-80-09</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="skills-next d-flex align-items-center">
+                <h4 class="mr-3">Ҳудудий бўлимлар</h4>
+                <img src="./assets/icons/next.svg" alt="error">
             </div>
         </div>
     </div>
-    <div class="section">
-        <div class="section-content"></div>
-        <div class="section-rgb"></div>
-        <div class="section-text">
-            <h5>Касбга ўқитиш</h5>
+    <div class="News">
+        <div class="container">
+            <div class="news-text">
+                <h4 data-aos="zoom-in-down" data-aos-delay="100" data-aos-duration="1000">янгиликлар</h4>
+            </div>
+            <div class="news-content">
+                <div class="row w-100">
+                    <div class="col-8">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-boxs"  data-aos="slide-right" data-aos-delay="100" data-aos-duration="1000"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row flex-column">
+                                    <div class="col-4">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="card-boxs" data-aos="slide-up" data-aos-delay="100" data-aos-duration="1000"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="card-boxs" data-aos="slide-up" data-aos-delay="100" data-aos-duration="1000"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="aside">
-         <div class="row">
-             <div class="col-4">
-                 <div class="card"  onclick="locatt('./mono.html')">
-                     <div class="card-header">
-                         <img src="assets/icons/pleasework.png" alt="error">
-                     </div>
-                     <div class="card-body">
-                         <p>Қарши “Ишга Марҳамат” Мономаркази</p>
-                     </div>
-                     <div class="card-footer">
-                         <div class="d-flex align-items-center">
-                         <img src="assets/icons/skelet.svg" alt="error">
-                             <p class="ml-3">Қўзиев Азим Абдуллаевич</p>
-                         </div>
-                         <div class="d-flex align-items-center">
-                         <img src="assets/icons/navigation.svg" alt="error">
-                             <p class="ml-3">Қашқадарё вилояти Дехқонобод тумани Нодира МФЙ Фурқат кўчаси 1-уй</p>
-                         </div>
-                         <div class="d-flex align-items-center">
-                         <img src="assets/icons/phone.svg" alt="error">
-                             <p class="ml-3">+99875 612-16-25</p>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-             <div class="col-4">
-                 <div class="card" onclick="locatt('./koica.html')">
-                     <div class="card-header">
-                         <img src="assets/icons/koica.png" alt="error">
-                     </div>
-                     <div class="card-body">
-                         <p class="w-100">Шаҳрисабз касб-ҳунарга ўқитиш маркази (KOICA)</p>
-                     </div>
-                     <div class="card-footer">
+       <div class="container">
+           <div class="aside-text">
+               <h5 data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000">Касбга ўқитиш</h5>
+           </div>
+           <div class="row">
+               <div class="col-4">
+                   <div class="card"  onclick="locatt('./mono.html')" data-aos="fade-up-right" data-aos-delay="100" data-aos-duration="1000">
+                       <div class="card-header">
+                           <img src="assets/icons/mono.svg" alt="error">
+                       </div>
+                       <div class="card-body">
+                           <p>Қарши “Ишга Марҳамат” Мономаркази</p>
+                       </div>
+                       <div class="card-footer">
+                           <div class="footer-info d-flex align-items-center">
+                               <img src="assets/icons/skelet.svg" alt="error">
+                               <p class="ml-3">Қўзиев Азим Абдуллаевич</p>
+                           </div>
+                           <div class="footer-info d-flex align-items-center">
+                               <img src="assets/icons/navigation.svg" alt="error">
+                               <p class="ml-3">Қашқадарё вилояти Дехқонобод тумани Нодира МФЙ Фурқат кўчаси 1-уй</p>
+                           </div>
+                           <div class="footer-info d-flex align-items-center">
+                               <img src="assets/icons/phone.svg" alt="error">
+                               <p class="ml-3">+99875 612-16-25</p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-4">
+                   <div class="card" onclick="locatt('./koica.html')"  data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                       <div class="card-header">
+                           <img src="assets/icons/koica.svg" alt="error" style="width: 258px">
+                       </div>
+                       <div class="card-body">
+                           <p class="w-100">Шаҳрисабз касб-ҳунарга ўқитиш маркази (KOICA)</p>
+                       </div>
+                       <div class="card-footer">
 
-                             <div class="d-flex align-items-center">
-                                 <img src="assets/icons/skelet.svg" alt="error">
-                                 <p class="ml-3">Қўзиев Азим Абдуллаевич</p>
-                             </div>
-                             <div class="d-flex align-items-center">
-                                 <img src="assets/icons/navigation.svg" alt="error">
-                                 <p class="ml-3">Қашқадарё вилояти Дехқонобод тумани Нодира МФЙ Фурқат кўчаси 1-уй</p>
-                             </div>
-                             <div class="d-flex align-items-center">
-                                 <img src="assets/icons/phone.svg" alt="error">
-                                 <p class="ml-3">+99875 612-16-25</p>
-                             </div>
+                           <div class="footer-info d-flex align-items-center">
+                               <img src="assets/icons/skelet.svg" alt="error">
+                               <p class="ml-3">Қўзиев Азим Абдуллаевич</p>
+                           </div>
+                           <div class="footer-info d-flex align-items-center">
+                               <img src="assets/icons/navigation.svg" alt="error">
+                               <p class="ml-3">Қашқадарё вилояти Дехқонобод тумани Нодира МФЙ Фурқат кўчаси 1-уй</p>
+                           </div>
+                           <div class="footer-info d-flex align-items-center">
+                               <img src="assets/icons/phone.svg" alt="error">
+                               <p class="ml-3">+99875 612-16-25</p>
+                           </div>
 
-                     </div>
-                 </div>
-             </div>
-             <div class="col-4">
-                 <div class="card">
-                     <div class="card-header">
-                         <img src="assets/icons/Grb.png" alt="error">
-                     </div>
-                     <div class="card-body">
-                         <p class="w-100">Деҳқонобод тумани касб-ҳунарга ўқитиш маркази</p>
-                     </div>
-                     <div class="card-footer">
-                         <div class="d-flex align-items-center">
-                             <img src="assets/icons/skelet.svg" alt="error">
-                             <p class="ml-3">Қўзиев Азим Абдуллаевич</p>
-                         </div>
-                         <div class="d-flex align-items-center">
-                             <img src="assets/icons/navigation.svg" alt="error">
-                             <p class="ml-3">Қашқадарё вилояти Дехқонобод тумани Нодира МФЙ Фурқат кўчаси 1-уй</p>
-                         </div>
-                         <div class="d-flex align-items-center">
-                             <img src="assets/icons/phone.svg" alt="error">
-                             <p class="ml-3">+99875 612-16-25</p>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-         </div>   
+                       </div>
+                   </div>
+               </div>
+               <div class="col-4">
+                   <div class="card"  data-aos="fade-up-left" data-aos-delay="100" data-aos-duration="1000">
+                       <div class="card-header">
+                           <img src="assets/icons/Grb.png" alt="error">
+                       </div>
+                       <div class="card-body">
+                           <p class="w-100">Деҳқонобод тумани касб-ҳунарга ўқитиш маркази</p>
+                       </div>
+                       <div class="card-footer">
+                           <div class="footer-info d-flex align-items-center">
+                               <img src="assets/icons/skelet.svg" alt="error">
+                               <p class="ml-3">Қўзиев Азим Абдуллаевич</p>
+                           </div>
+                           <div class="footer-info d-flex align-items-center">
+                               <img src="assets/icons/navigation.svg" alt="error">
+                               <p class="ml-3">Қашқадарё вилояти Дехқонобод тумани Нодира МФЙ Фурқат кўчаси 1-уй</p>
+                           </div>
+                           <div class="footer-info d-flex align-items-center">
+                               <img src="assets/icons/phone.svg" alt="error">
+                               <p class="ml-3">+99875 612-16-25</p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="footer-content d-flex align-items-center">
+                            <img src="assets/icons/gerbrgbs.svg" alt="error">
+                            <div class="footer-text mb-0">
+                                <h5>Қашқадарё вилояти</h5>
+                                <h4>Бандлик бош бошқармаси</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>Қашқадарё вилояти Бандлик бош бошқармаси</p>
+
+                        <img src="assets/icons/belgi.svg" alt="error">
+                        <p>Сайт материалларидан фойдаланганда, ушбу сайтга хавола кўрсатилиши шарт</p>
+                    </div>
+                </div>
+            </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="footer-content d-flex align-items-center">
+                                <div class="footer-text mb-0">
+                                    <h4>Бандлик бош бошқармаси</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p>Ўзбекистон Республикаси Бандлик ва меҳнат муносабатлари вазирлиги</p>
+                            <p>Lex.uz</p>
+                            <p> Ягона интерактив давлат хизматлари портали</p>
+                            <p>Ташқи меҳнат миграцияси  агентлиги (Қарши)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="footer-content d-flex align-items-center">
+                                <div class="footer-text mb-0">
+                                    <h4>Бизнинг манзил</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p>180100, қашқадарё вилояти,  Қарши шаҳри, хонабод кўчаси 46 уй</p>
+                            <a href="#">+998 75 224-04-80</a>
+                            <img src="assets/icons/mapuzb.svg" alt="error">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
@@ -454,6 +494,10 @@
 <script src="js/jquery-3.3.1.slim.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script src="js/main.js"></script>
 </body>
 </html>

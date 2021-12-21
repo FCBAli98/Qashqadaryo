@@ -1,5 +1,9 @@
 
+window.addEventListener('scroll', function () {
+    let scroll = document.getElementById('scroll');
 
+    scroll.classList.toggle('active', window.scrollY > 0);
+});
 
 let nav = document.getElementById('nav');
 let btn =document.getElementById("menu");
