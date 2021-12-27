@@ -5,33 +5,34 @@ body {
   padding: 0; }
   body .container-fluid {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    position: relative; }
     body .container-fluid .navbar {
-      width: 100%;
-      padding: 23px 217px; }
-      body .container-fluid .navbar .navbar-brand {
+      width: 100%; }
+      body .container-fluid .navbar .container .navbar-brand {
         display: flex;
         align-items: center; }
-        body .container-fluid .navbar .navbar-brand img {
-          width: 76px;
-          height: 76px; }
-        body .container-fluid .navbar .navbar-brand .navbar-text h5 {
+        body .container-fluid .navbar .container .navbar-brand img {
+          width: 60px;
+          height: 60px; }
+        body .container-fluid .navbar .container .navbar-brand .navbar-text h5 {
           font-family: Roboto;
           font-style: normal;
           font-weight: 500;
-          font-size: 20px;
+          font-size: 18px;
           line-height: 116.4%;
           text-transform: uppercase;
-          color: #4883A5; }
-        body .container-fluid .navbar .navbar-brand .navbar-text h4 {
+          color: #4883A5;
+          margin-bottom: 0; }
+        body .container-fluid .navbar .container .navbar-brand .navbar-text h4 {
           font-family: Roboto;
           font-style: normal;
           font-weight: 900;
-          font-size: 20px;
+          font-size: 18px;
           line-height: 116.4%;
           text-transform: uppercase;
           color: #4883A5; }
-      body .container-fluid .navbar .nav .nav-item .nav-link {
+      body .container-fluid .navbar .container .nav .nav-item .nav-link {
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
@@ -40,445 +41,108 @@ body {
         color: #535C6D;
         text-transform: capitalize; }
     body .container-fluid .navbar-menus {
-      padding: 30px 217px;
-      background: #535C6D;
+      height: 58px;
+      background: rgba(27, 96, 225, 0.6);
+      position: fixed;
       width: 100%;
-      height: 106px; }
-      body .container-fluid .navbar-menus .nav {
+      z-index: 999; }
+      body .container-fluid .navbar-menus.active {
+        top: 0;
+        position: fixed;
+        background-color: #0a6ebd;
+        transition: 1s linear; }
+      body .container-fluid .navbar-menus .container .nav {
+        display: flex;
+        justify-content: space-between;
         width: 100%;
-        justify-content: space-between; }
-        body .container-fluid .navbar-menus .nav .nav-item {
-          z-index: 999;
+        align-content: center;
+        height: 100%; }
+        body .container-fluid .navbar-menus .container .nav .nav-item {
           position: relative;
-          height: 76px; }
-          body .container-fluid .navbar-menus .nav .nav-item .nav-link {
-            font-family: Montserrat;
+          min-height: 100%;
+          padding: 8px; }
+          body .container-fluid .navbar-menus .container .nav .nav-item .nav-link {
+            font-family: Roboto;
             font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 22px;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
             text-transform: capitalize;
-            color: #FFFFFF;
-            padding: 10px;
-            height: 100%;
-            position: relative;
-            transition: all 1s ease-in-out; }
-          body .container-fluid .navbar-menus .nav .nav-item .nav {
+            color: #ffffff;
+            order: 0;
+            flex-grow: 0;
+            padding: 10px; }
+          body .container-fluid .navbar-menus .container .nav .nav-item .nav {
             flex-direction: column;
             background: rgba(27, 96, 225, 0.8);
             backdrop-filter: blur(4px);
-            padding: 15px;
+            width: 368px;
+            display: none;
             position: absolute;
-            width: 320px;
-            top: 76px;
-            display: none; }
-            body .container-fluid .navbar-menus .nav .nav-item .nav .nav-item {
+            top: 58px;
+            height: auto;
+            z-index: 999;
+            padding: 0 20px; }
+            body .container-fluid .navbar-menus .container .nav .nav-item .nav .nav-item {
               border-bottom: 0.5px solid rgba(255, 255, 255, 0.55);
-              height: 100%; }
-              body .container-fluid .navbar-menus .nav .nav-item .nav .nav-item .nav-link {
+              padding: 0;
+              height: 100%;
+              z-index: 999;
+              width: 100%; }
+              body .container-fluid .navbar-menus .container .nav .nav-item .nav .nav-item .nav-link {
                 font-family: Montserrat;
                 font-style: normal;
                 font-weight: 500;
-                font-size: 18px;
+                font-size: 15px !important;
                 line-height: 22px;
                 text-transform: capitalize;
-                color: #FFFFFF;
-                overflow-x: hidden;
-                width: 100%; }
-          body .container-fluid .navbar-menus .nav .nav-item:hover .nav {
-            display: flex;
-            overflow-x: hidden; }
-            body .container-fluid .navbar-menus .nav .nav-item:hover .nav .nav-item {
-              width: 100%; }
-              body .container-fluid .navbar-menus .nav .nav-item:hover .nav .nav-item .nav-link {
-                width: 100%; }
-        body .container-fluid .navbar-menus .nav .nav-item:nth-child(7) .nav-link {
-          font-family: Montserrat;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 18px;
-          line-height: 22px;
-          text-transform: capitalize;
-          color: #FFFFFF; }
-        body .container-fluid .navbar-menus .nav .nav-item:nth-child(7) .nav {
-          flex-direction: column;
-          background: rgba(27, 96, 225, 0.8);
-          backdrop-filter: blur(4px);
-          padding: 15px;
-          position: absolute;
-          width: 320px;
-          top: 76px;
-          display: none;
-          right: -122px; }
-          body .container-fluid .navbar-menus .nav .nav-item:nth-child(7) .nav .nav-item {
-            border-bottom: 0.5px solid rgba(255, 255, 255, 0.55);
-            height: 100%; }
-            body .container-fluid .navbar-menus .nav .nav-item:nth-child(7) .nav .nav-item .nav-link {
-              font-family: Montserrat;
-              font-style: normal;
-              font-weight: 500;
-              font-size: 18px;
-              line-height: 22px;
-              text-transform: capitalize;
-              color: #FFFFFF;
-              overflow-x: hidden;
-              width: 100%; }
-        body .container-fluid .navbar-menus .nav .nav-item:nth-child(7):hover .nav {
-          display: flex;
-          overflow-x: hidden; }
-          body .container-fluid .navbar-menus .nav .nav-item:nth-child(7):hover .nav .nav-item {
-            width: 100%; }
-            body .container-fluid .navbar-menus .nav .nav-item:nth-child(7):hover .nav .nav-item .nav-link {
-              width: 100%; }
+                color: #FFFFFF; }
+          body .container-fluid .navbar-menus .container .nav .nav-item:hover .nav {
+            display: flex !important; }
+    body .container-fluid .navbar-submenus {
+      display: none; }
     body .container-fluid .body {
       position: relative; }
       body .container-fluid .body .body-content {
         width: 100%;
-        height: 911px;
-        background-image: url("../assets/image/pagesamar.png");
+        height: 350px;
+        background-image: url("../assets/image/samarrrr.svg");
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center; }
+        background-position: center;
+        opacity: 0.2; }
       body .container-fluid .body p {
         position: absolute;
-        top: 314px;
-        left: 178px;
+        top: 198px;
+        left: 180px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 900;
         font-size: 32px;
         line-height: 139.9%;
         text-transform: uppercase;
-        color: #FFFFFF; }
-    body .container-fluid .skills {
-      position: relative; }
-      body .container-fluid .skills .skills-next {
-        position: absolute;
-        top: 50px;
-        right: 259px; }
-        body .container-fluid .skills .skills-next p {
-          font-family: Roboto;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 20px;
-          line-height: 94.69%;
-          color: #535C6D;
-          margin-bottom: 0; }
-      body .container-fluid .skills .row {
-        width: 100%;
-        padding: 154px 235px; }
-        body .container-fluid .skills .row .col-6 {
-          margin-bottom: 100px; }
-          body .container-fluid .skills .row .col-6 .card {
-            border: 0;
-            border-radius: 0; }
-            body .container-fluid .skills .row .col-6 .card .card-body {
-              display: flex;
-              align-items: center; }
-              body .container-fluid .skills .row .col-6 .card .card-body .card-photo {
-                width: 300px;
-                height: 191px;
-                background: #838383;
-                border-radius: 16px; }
-              body .container-fluid .skills .row .col-6 .card .card-body .people-info {
-                margin-top: 20px; }
-                body .container-fluid .skills .row .col-6 .card .card-body .people-info .skills-title {
-                  display: flex;
-                  align-items: center; }
-                  body .container-fluid .skills .row .col-6 .card .card-body .people-info .skills-title h4 {
-                    font-family: Roboto;
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 20px;
-                    line-height: 94.69%;
-                    letter-spacing: 0.035em;
-                    text-transform: capitalize;
-                    color: #535C6D; }
-                  body .container-fluid .skills .row .col-6 .card .card-body .people-info .skills-title h5 {
-                    font-family: Roboto;
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 20px;
-                    line-height: 94.69%;
-                    letter-spacing: 0.035em;
-                    text-transform: capitalize;
-                    color: #535C6D;
-                    padding-left: 10px; }
-                body .container-fluid .skills .row .col-6 .card .card-body .people-info .skills-info .d-flex p {
-                  width: 100%;
-                  margin-left: 20px;
-                  width: 270px; }
-    @media (max-width: 576px) {
-      body .container-fluid .navbar {
-        padding: 25px;
-        position: relative; }
-        body .container-fluid .navbar .navbar-brand img {
-          width: 40px;
-          height: 40px; }
-        body .container-fluid .navbar .navbar-brand .navbar-text h5 {
-          font-size: 10px;
-          margin-bottom: 3px; }
-        body .container-fluid .navbar .navbar-brand .navbar-text h4 {
-          font-size: 10px; }
-        body .container-fluid .navbar .menu-btn {
-          width: 30px;
-          height: 30px;
-          background-image: url("../assets/icons/round_hamburger_menu_burger_icon_132782.svg");
-          background-repeat: no-repeat;
-          background-size: cover; }
-        body .container-fluid .navbar .nav {
-          display: none; }
-          body .container-fluid .navbar .nav.active {
-            width: 250px;
-            flex-direction: column;
-            position: absolute;
-            top: 110px;
-            right: 0;
-            z-index: 999;
-            display: block;
-            background: #FFFFFF; }
-            body .container-fluid .navbar .nav.active .nav-text1 {
-              flex-direction: column; }
-            body .container-fluid .navbar .nav.active .nav-text2 {
-              flex-direction: column; }
-            body .container-fluid .navbar .nav.active .nav-text3 {
-              flex-direction: column; }
-      body .container-fluid .navbar-menus {
-        display: none; }
-        body .container-fluid .navbar-menus.active {
-          width: 250px !important;
-          min-height: 333px;
-          flex-direction: column;
-          position: absolute;
-          top: 411px;
-          right: 0;
-          padding: 0;
-          display: flex;
-          z-index: 888; }
-          body .container-fluid .navbar-menus.active .nav {
-            width: 100%;
-            min-height: 100%;
-            padding: 0;
-            display: block; }
-            body .container-fluid .navbar-menus.active .nav .nav-item {
-              width: 100%;
-              text-align: center;
-              position: relative; }
-              body .container-fluid .navbar-menus.active .nav .nav-item .nav-link {
-                color: #FFFFFF;
-                font-size: 15px;
-                width: 100% !important;
-                height: 100%;
-                padding-top: 20px; }
-              body .container-fluid .navbar-menus.active .nav .nav-item .nav {
-                top: 16px;
-                right: 240px;
-                width: 100%; }
-                body .container-fluid .navbar-menus.active .nav .nav-item .nav .nav-item .nav-link {
-                  font-size: 14px;
-                  height: 100%; }
-      body .container-fluid .body .body-content {
-        width: 100%;
-        height: 208px; }
-      body .container-fluid .body p {
-        top: 71px;
-        left: 44px;
-        font-size: 10px; }
-      body .container-fluid .skills .skills-next {
-        top: 40px;
-        right: 20px; }
-        body .container-fluid .skills .skills-next p {
-          font-size: 15px; }
-        body .container-fluid .skills .skills-next img {
-          width: 20px; }
-      body .container-fluid .skills .row {
-        padding: 150px 0 0 0;
-        margin: 0;
-        width: 100%; }
-        body .container-fluid .skills .row .col-6 {
-          min-width: 100%;
-          padding: 0; }
-          body .container-fluid .skills .row .col-6 .card {
-            width: 100%; }
-            body .container-fluid .skills .row .col-6 .card .card-body {
-              padding: 30px;
-              flex-direction: column !important; }
-              body .container-fluid .skills .row .col-6 .card .card-body .card-photo {
-                width: 250px;
-                height: 150px;
-                margin-left: 0; }
-              body .container-fluid .skills .row .col-6 .card .card-body .people-info .skills-title h5 {
-                font-size: 15px; }
-              body .container-fluid .skills .row .col-6 .card .card-body .people-info .skills-title h4 {
-                font-size: 15px; }
-              body .container-fluid .skills .row .col-6 .card .card-body .people-info .skills-info .d-flex {
-                margin-top: 10px; }
-                body .container-fluid .skills .row .col-6 .card .card-body .people-info .skills-info .d-flex img {
-                  width: 20px;
-                  height: 20px; }
-                body .container-fluid .skills .row .col-6 .card .card-body .people-info .skills-info .d-flex p {
-                  width: 264px;
-                  font-size: 15px;
-                  margin-left: 10px;
-                  margin-bottom: 0; } }
-    @media (min-width: 576px) and (max-width: 768px) {
-      body .container-fluid .navbar {
-        padding: 25px; }
-        body .container-fluid .navbar .navbar-brand img {
-          width: 50px;
-          height: 50px; }
-        body .container-fluid .navbar .navbar-brand .navbar-text h5 {
-          font-size: 15px; }
-        body .container-fluid .navbar .navbar-brand .navbar-text h4 {
-          font-size: 15px; }
-        body .container-fluid .navbar .menu-btn {
-          width: 30px;
-          height: 30px;
-          background-image: url("../assets/icons/round_hamburger_menu_burger_icon_132782.svg");
-          background-repeat: no-repeat;
-          background-size: cover; }
-        body .container-fluid .navbar .nav {
-          display: none; }
-      body .container-fluid .navbar-menus {
-        display: none; }
-      body .container-fluid .body .body-content {
-        width: 100%;
-        height: 248px; }
-      body .container-fluid .body p {
-        top: 80px;
-        left: 66px;
-        font-size: 13px; }
-      body .container-fluid .skills .skills-next {
-        top: 40px;
-        right: 20px; }
-        body .container-fluid .skills .skills-next p {
-          font-size: 15px; }
-        body .container-fluid .skills .skills-next img {
-          width: 20px; }
-      body .container-fluid .skills .row {
-        padding: 100px 25px;
-        flex-direction: column;
-        margin: 0 !important; }
-        body .container-fluid .skills .row .col-6 {
-          max-width: 100%; }
-          body .container-fluid .skills .row .col-6 .card {
-            width: 100%;
-            flex-direction: column !important; }
-            body .container-fluid .skills .row .col-6 .card .card-body {
-              flex-direction: column; }
-              body .container-fluid .skills .row .col-6 .card .card-body .card-photo {
-                width: 300px;
-                margin: 0; }
-              body .container-fluid .skills .row .col-6 .card .card-body .people-info .skills-title h4 {
-                font-size: 18px; }
-              body .container-fluid .skills .row .col-6 .card .card-body .people-info .skills-title h5 {
-                font-size: 18px; }
-              body .container-fluid .skills .row .col-6 .card .card-body .people-info .d-flex img {
-                width: 25px;
-                height: 25px; }
-              body .container-fluid .skills .row .col-6 .card .card-body .people-info .d-flex p {
-                width: 270px !important; } }
-    @media (min-width: 768px) and (max-width: 992px) {
-      body .container-fluid .navbar {
-        padding: 20px 30px; }
-        body .container-fluid .navbar .navbar-brand img {
-          width: 60px;
-          height: 60px; }
-        body .container-fluid .navbar .navbar-brand .navbar-text h5 {
-          font-size: 18px; }
-        body .container-fluid .navbar .navbar-brand .navbar-text h4 {
-          font-size: 18px; }
-        body .container-fluid .navbar .menu-btn {
-          width: 30px;
-          height: 30px;
-          background-image: url("../assets/icons/round_hamburger_menu_burger_icon_132782.svg");
-          background-size: cover;
-          background-repeat: no-repeat; }
-        body .container-fluid .navbar .nav {
-          display: none; }
-      body .container-fluid .navbar-menus {
-        display: none; }
-      body .container-fluid .body .body-content {
-        width: 100%;
-        height: 325px; }
-      body .container-fluid .body p {
-        top: 111px;
-        left: 116px;
-        font-size: 16px; }
-      body .container-fluid .skills .skills-next {
-        top: 40px;
-        right: 30px; }
-        body .container-fluid .skills .skills-next p {
-          font-size: 16px; }
-        body .container-fluid .skills .skills-next img {
-          width: 30px; }
-      body .container-fluid .skills .row {
-        padding: 120px 30px 50px 30px;
-        margin: 0 !important;
-        flex-direction: column; }
-        body .container-fluid .skills .row .col-6 {
-          max-width: 100%; }
-          body .container-fluid .skills .row .col-6 .card .card-body {
-            flex-direction: column; }
-            body .container-fluid .skills .row .col-6 .card .card-body .card-photo {
-              margin: 0; }
-            body .container-fluid .skills .row .col-6 .card .card-body .people-info .skills-info .d-flex p {
-              width: 270px; } }
-    @media (min-width: 992px) and (max-width: 1200px) {
-      body .container-fluid .navbar {
-        padding: 25px 30px;
-        display: flex;
-        align-items: center; }
-        body .container-fluid .navbar .navbar-brand .navbar-text h4 {
-          font-size: 18px; }
-        body .container-fluid .navbar .navbar-brand .navbar-text h5 {
-          font-size: 18px; }
-        body .container-fluid .navbar .nav .nav-text1 .nav-item .nav-link {
-          padding: 10px; }
-      body .container-fluid .navbar-menus {
-        padding: 20px 30px;
-        height: 90px; }
-        body .container-fluid .navbar-menus .nav .nav-item .nav-link {
-          font-size: 15px; }
-      body .container-fluid .body .body-content {
-        width: 100%;
-        height: 442px; }
-      body .container-fluid .body p {
-        font-size: 20px;
-        top: 156px;
-        left: 100px; }
-      body .container-fluid .skills .skills-next {
-        top: 40px;
-        right: 30px; }
-      body .container-fluid .skills .row {
-        padding: 120px 30px;
-        margin: 0; }
-        body .container-fluid .skills .row .col-6 .card .card-body {
-          flex-direction: column; }
-          body .container-fluid .skills .row .col-6 .card .card-body .card-photo {
-            margin-left: 0; }
-          body .container-fluid .skills .row .col-6 .card .card-body .people-info .skills-info .d-flex p {
-            width: 270px; } }
-    @media (min-width: 1200px) and (max-width: 1400px) {
-      body .container-fluid .navbar {
-        padding: 25px 30px; }
-      body .container-fluid .navbar-menus {
-        padding: 30px; }
-      body .container-fluid .body .body-content {
-        width: 100%;
-        height: 576px; }
-      body .container-fluid .body p {
-        top: 200px;
-        left: 144px;
-        font-size: 25px; }
-      body .container-fluid .skills .skills-next {
-        top: 60px;
-        right: 50px; }
-      body .container-fluid .skills .row {
-        padding: 150px 35px 50px 35px;
-        margin: 0; }
-        body .container-fluid .skills .row .col-6 .card .card-body {
-          display: flex;
-          align-items: center; } }
+        color: #51596A; }
+    body .container-fluid .skills .container .row {
+      width: 100%;
+      margin: 0; }
+      body .container-fluid .skills .container .row .col-4 .card {
+        border: 0; }
+        body .container-fluid .skills .container .row .col-4 .card .card-body .city-photo {
+          width: 100%;
+          height: 226px;
+          background: #C4C4C4;
+          border-radius: 16px; }
+        body .container-fluid .skills .container .row .col-4 .card .card-footer {
+          background: white;
+          border-top: 0; }
+          body .container-fluid .skills .container .row .col-4 .card .card-footer p {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 94.69%;
+            letter-spacing: -0.02em;
+            text-transform: capitalize;
+            color: #535C6D; }
 
 /*# sourceMappingURL=divi.css.map */

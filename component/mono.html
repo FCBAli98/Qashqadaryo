@@ -5,104 +5,234 @@
     <title>“Ишга Марҳамат” Мономарказ</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/mono.css">
-
 </head>
 <body>
 
 <div class="container-fluid">
     <div class="navbar">
-        <div class="navbar-brand">
-            <img src="../assets/icons/Grb.png" alt="">
-            <div class="navbar-text">
-                <h5>Қашқадарё вилояти</h5>
-                <h4>Бандлик бош бошқармаси</h4>
+        <div class="container">
+            <div class="navbar-brand">
+                <img src="../assets/icons/Grb.png" alt="error">
+                <div class="navbar-text">
+                    <h5>Қашқадарё вилояти</h5>
+                    <h4>Бандлик бош бошқармаси</h4>
+                </div>
             </div>
+            <div class="menu-btn d-none" id="menu"></div>
+            <ul class="nav" id="nav-menu">
+                <div class="nav-text2 d-flex align-items-center">
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/icons/miniphone.svg" alt="error"></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/icons/glesses.svg" alt="error"></a></li>
+                </div>
+                <div class="nav-text3 d-flex align-items-center">
+                    <li class="nav-item"><a href="#" class="nav-link">O'zb</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">ўзб</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/icons/search.svg" alt="error"></a></li>
+                </div>
+            </ul>
         </div>
-        <div class="menu-btn"></div>
-        <ul class="nav">
-            <div class="nav-text1 d-flex align-items-center">
-                <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/icons/phone.svg" alt="error"></a>
-                </li>
-                <li class="nav-item"><a href="#" class="nav-link">+998(71) 233-22-00</a></li>
-            </div>
-            <div class="nav-text2 d-flex align-items-center">
-                <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/icons/miniphone.svg" alt="error"></a>
-                </li>
-                <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/icons/glesses.svg"
-                                                                       alt="error"></a></li>
-            </div>
-            <div class="nav-text3 d-flex align-items-center">
-                <li class="nav-item"><a href="#" class="nav-link">рус</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">ўзб</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">eng</a></li>
-                <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/icons/search.svg" alt="error"></a>
-                </li>
-            </div>
-        </ul>
     </div>
-    <div class="navbar-menus">
+    <!-- desctop-->
+    <div class="navbar-menus" id="scroll">
+        <div class="container">
+            <ul class="nav">
+                <li class="nav-item"><a href="#" class="nav-link">Бошқарма</a>
+
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/work.html')">Бошқарма ҳақида</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/Contact.html')">Раҳбарият</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/employees.html')">Ҳодимлар</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/basic.html')">Бошқарма тузилмаси</a></li>
+                        <li class="nav-item border-bottom-0"><a href="#" class="nav-link" onclick="locatt('/index.html')">Фаолият йўналишлари</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/Territorial divisions.html')">Ҳудудий бўлимлар</a>
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Қарши шаҳри</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Шаҳрисабз шаҳри</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Ғузор тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Деҳқонобод тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Касби тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Китоб тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Косон тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Қамаши тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Қарши тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Миришкор тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Муборак тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Нишон тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Чироқчи тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Шаҳрисабз тумани</a></li>
+                        <li class="nav-item border-bottom-0"><a href="#" class="nav-link" onclick="locatt('/.html')">Яккабоғ тумани</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/section.html')">Касбга ўқитиш</a>
+                    <ul class="nav">
+                        <li class="nav-item h-100"><a href="#" class="nav-link h-100" onclick="locatt('/mono.html')">“Ишга Марҳамат” Мономарказ</a></li>
+                        <li class="nav-item h-100"><a href="#" class="nav-link h-100" onclick="locatt('/koica.html')">KOICA</a></li>
+                        <li class="nav-item border-bottom-0"><a href="#" class="nav-link h-100" onclick="locatt('/article.html')">Деҳқонобод тумани касб-ҳунарга ўқитиш маркази</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">Матбуот маркази</a>
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#" class="nav-link">Янгиликлар</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Фотогалерия</a></li>
+                        <li class="nav-item border-bottom-0"><a href="#" class="nav-link">Видеогалерия</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">Меъёрий-ҳуқуқий хужжатлар</a>
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/law.html')">Ўзбекистон Республикаси қонунлари</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/note.html')">Ўзбекистон Республикаси Президенти Фармон ва Қарорлари</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/minister.html')">Ўзбекистон Республикаси Вазирлар Маҳкамаси  Қарорлари</a></li>
+                        <li class="nav-item border-bottom-0"><a href="#" class="nav-link" onclick="locatt('/end.html')">Ўзбекистон Республикаси Бандлик ва меҳнат муносабатлари вазирлиги меъёрий хужжатлари</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">Боғланиш</a>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- mobile version-->
+    <div class="navbar-submenus" id="nav">
         <ul class="nav">
-            <li class="nav-item"><a href="#" class="nav-link">Бошқарма</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Ҳудудий бўлимлар</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Касбга ўқитиш</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Матбуот маркази</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Меъёрий-ҳуқуқий хужжатлар</a></li>
+            <li class="nav-item">
+                <a href="#demo" class="nav-link" data-toggle="collapse">Бошқарма</a>
+
+                <ul class="nav collapse" id="demo">
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/work.html')">Бошқарма ҳақида</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/Contact.html')">Раҳбарият</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/employees.html')">Ҳодимлар</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/basic.html')">Бошқарма тузилмаси</a></li>
+                    <li class="nav-item border-bottom-0"><a href="#" class="nav-link" onclick="locatt('/index.html')">Фаолият йўналишлари</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="#demo1" class="nav-link" data-toggle="collapse" onclick="locatt('/Territorial divisions.html')">Ҳудудий бўлимлар</a>
+                <ul class="nav collapse" id="demo1">
+                    <li class="nav-item h-100"><a href="#" class="nav-link h-100" onclick="locatt('/mono.html')">“Ишга Марҳамат” Мономарказ</a></li>
+                    <li class="nav-item h-100"><a href="#" class="nav-link h-100" onclick="locatt('/koica.html')">KOICA</a></li>
+                    <li class="nav-item border-bottom-0"><a href="#" class="nav-link h-100" onclick="locatt('/article.html')">Деҳқонобод тумани касб-ҳунарга ўқитиш маркази</a></li>
+                </ul>
+
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link" onclick="locatt('/section.html')">Касбга ўқитиш</a></li>
+            <li class="nav-item"><a href="#demo2" class="nav-link" data-toggle="collapse">Матбуот маркази</a>
+                <ul class="nav collapse" id="demo2">
+                    <li class="nav-item"><a href="#" class="nav-link">Янгиликлар</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Фотогалерия</a></li>
+                    <li class="nav-item border-bottom-0"><a href="#" class="nav-link">Видеогалерия</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="#demo3" class="nav-link" data-toggle="collapse">Меъёрий-ҳуқуқий хужжатлар</a>
+                <ul class="nav collapse" id="demo3">
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/law.html')">Ўзбекистон Республикаси қонунлари</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/note.html')">Ўзбекистон Республикаси Президенти Фармон ва Қарорлари</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/minister.html')">Ўзбекистон Республикаси Вазирлар Маҳкамаси  Қарорлари</a></li>
+                    <li class="nav-item border-bottom-0"><a href="#" class="nav-link" onclick="locatt('/end.html')">Ўзбекистон Республикаси Бандлик ва меҳнат муносабатлари вазирлиги меъёрий хужжатлари</a></li>
+                </ul>
+            </li>
             <li class="nav-item"><a href="#" class="nav-link">Вакансиялар</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Боғланиш</a></li>
+            <li class="nav-item">
+                <a href="#demo4" class="nav-link" data-toggle="collapse">Боғланиш</a>
+                <ul class="nav collapse" id="demo4">
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Қарши шаҳри</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Шаҳрисабз шаҳри</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Ғузор тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Деҳқонобод тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Касби тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Китоб тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Косон тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Қамаши тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Қарши тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Миришкор тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Муборак тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Нишон тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Чироқчи тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Шаҳрисабз тумани</a></li>
+                    <li class="nav-item border-bottom-0"><a href="#" class="nav-link" onclick="locatt('/.html')">Яккабоғ тумани</a></li>
+                </ul>
+            </li>
         </ul>
     </div>
 
     <div class="body">
         <div class="body-content"></div>
-        <div class="body-text">
-            <p>“Ишга Марҳамат” Мономарказ</p>
+        <div class="body-title">
+            <h4>“ишга марҳамат” мономаркази</h4>
         </div>
     </div>
-    <div class="skills">
-        <div class="row">
-            <div class="col-9">
-                <div class="card">
-                    <div class="card-body">
-                        <p>“Ўзбекистон Республикаси Иқтисодий тараққиёт ва камбағалликни қисқартириш вазирлиги ҳамда
-                            унинг тизим ташкилотлари фаолиятини ташкил этиш тўғрисида” Президент қарори қабул қилинди.
-                            <br>
-                            <br>
-                            Қарорга мувофиқ, камбағал ва ишсиз аҳолини, айниқса, хотин-қизларни ва ёшларни
-                            тадбиркорликка кенг жалб қилиш, меҳнат фаоллигини ошириш ва касб-ҳунарга ўқитишга қаратилган
-                            чора-тадбирлар тўғрисида қарор лойиҳаси ишлаб чиқилади.
-                            <br>
-                            <br>
+    <div class="info-title">
+        <div class="container">
+            <div class="card">
+                <div class="card-body">
+                    <p>Ўзбекистон Республикаси Соғлиқни сақлаш вазирлиги (кейинчалик матнда Вазирлик) соғлиқни сақлаш
+                        бўйича марказий давлат бошқаруви ҳисобланиб, ўз фаолияти бўйича Ўзбекистон Республикаси Вазирлар
+                        Маҳкамасига бўйсунади. Вазирлик фаолиятини бошқа давлат идоралари, жумладан давлат </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                            Бунда камбағал, ишсиз фуқароларни касб-ҳунарга ва тадбиркорликка ўқитиш маҳалла, туман
-                            (шаҳар) ва ҳудуд марказлари даражасида “маҳаллада касб-ҳунарга ўқитиш масканлари – туман
-                            касб-ҳунарга ўқитиш марказлари – ҳудуд “Ишга марҳамат” мономарказлари” механизми асосида
-                            амалга оширилади.
-                            <br>
-                            <br>
-
-                            Лойиҳада шунингдек, қуйидагилар назарда тутилади:
-                            <br>
-                            <br>
-                            2020 йил 1 июлга қадар ҳар бир ҳудудда камида биттадан “Энг яхши касбга тайёрлаш дастури”
-                            бўйича нодавлат ташкилотлари ўртасида танлов ўтказиш, танлов ғолибларига ўз ишини ташкил
-                            қилиш учун грант ажратиш;
-                            2020 йил 1 октябрга қадар ҳар бир ҳудудда камида биттадан “Ишга марҳамат” мономарказлари ёки
-                            касб-ҳунарга тайёрлаш марказларини ташкил этиш;
-                            2020 йил 1 июнга қадар Россия Федерациясининг ўзбекистонлик меҳнат мигрантлари энг кўп
-                            фаолият юритаётган ҳудудларини аниқлаб, дастлабки босқичда камида 5 та шаҳарда мигрантларни
-                            касбга ўқитиш ва рус тилини ўргатишни ташкил этиш.
-                            Қарор билан Иқтисодий тараққиёт ва камбағалликни қисқартириш вазирлиги тўғрисидаги низом
-                            тасдиқланди.</p>
+    <div class="body-map">
+        <div class="container">
+            <div class="row">
+                <div class="col-12      ">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Қарши шаҳри АБКМ директори </h4>
+                            <div class="body-text1 d-flex align-items-center pb-3">
+                                <img src="../assets/icons/skelet.svg" alt="error">
+                                <p class="ml-3 mb-0">Узаков Дилшод Серабович</p>
+                            </div>
+                            <div class="body-text2 d-flex align-items-center pb-3">
+                                <img src="../assets/icons/navigation.svg" alt="error">
+                                <p class="ml-3 mb-0 w-25">Қашқадарё вилояти, Қарши шаҳри, Хонобод кўчаси, 46 уй</p>
+                            </div>
+                            <div class="body-text3 d-flex align-items-center pb-3">
+                                <img src="../assets/icons/phone.svg" alt="error">
+                                <p class="ml-3 ">+99893 900-80-09</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="map"></div>
+                            <div class="map-search">
+                                <div class="map-nav">
+                                    <img src="../assets/icons/telegram.svg" alt="">
+                                </div>
+                                <div class="input-group d-flex align-items-center">
+                                    <img src="../assets/icons/search.svg" alt="error">
+                                    <input type="text" class="form-control">
+                                    <div class="input-group-append">
+                                        <a href="#" class="nav-link">Найти</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-increment">
+                                <div class="increment">
+                                    <img src="../assets/icons/plus.svg" alt="error">
+                                </div>
+                                <div class="line"></div>
+                                <div class="line2"></div>
+                                <div class="decrement">
+                                    <img src="../assets/icons/minus.svg" alt="error">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 </div>
 
 
 <script src="../js/jquery-3.3.1.slim.min.js"></script>
 <script src="../js/popper.min.js"></script>
 <script src="../js/bootstrap.js"></script>
+<script src="../js/main.js"></script>
 </body>
 </html>
