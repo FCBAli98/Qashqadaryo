@@ -351,7 +351,7 @@ body .container-fluid {
     background-size: cover;
     width: 100%;
     height: 651px;
-    margin: 40px 0 140px 0; }
+    margin: 40px 0 0; }
     body .container-fluid .footer .container .row {
       padding: 48px 0;
       margin: 0; }
@@ -710,7 +710,8 @@ body .container-fluid {
             font-size: 18px; } }
   @media (min-width: 576px) and (max-width: 768px) {
     body .container-fluid .navbar {
-      width: 100%; }
+      width: 100%;
+      position: relative; }
       body .container-fluid .navbar .container {
         width: 100%; }
         body .container-fluid .navbar .container .navbar-brand img {
@@ -729,8 +730,53 @@ body .container-fluid {
           display: flex !important; }
         body .container-fluid .navbar .container .nav {
           display: none; }
+          body .container-fluid .navbar .container .nav.active {
+            display: flex;
+            width: 100%;
+            background: #ffffff;
+            position: absolute;
+            top: 86px;
+            right: 0;
+            z-index: 999;
+            flex-direction: column; }
+            body .container-fluid .navbar .container .nav.active .nav-text3 {
+              flex-direction: column; }
+            body .container-fluid .navbar .container .nav.active .nav-text2 {
+              flex-direction: column; }
     body .container-fluid .navbar-menus {
       display: none; }
+    body .container-fluid .navbar-submenus {
+      display: none; }
+      body .container-fluid .navbar-submenus.active {
+        display: flex;
+        position: absolute;
+        top: 281px;
+        right: 0;
+        background: #535C6D;
+        z-index: 999;
+        width: 100%; }
+        body .container-fluid .navbar-submenus.active .nav {
+          text-align: center; }
+          body .container-fluid .navbar-submenus.active .nav .nav-item {
+            width: 100%; }
+            body .container-fluid .navbar-submenus.active .nav .nav-item .nav-link {
+              font-family: Roboto;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 18px;
+              line-height: 30px;
+              text-transform: capitalize;
+              color: #ffffff; }
+            body .container-fluid .navbar-submenus.active .nav .nav-item .nav .nav-item {
+              border-bottom: .5px solid #adb5bd; }
+              body .container-fluid .navbar-submenus.active .nav .nav-item .nav .nav-item .nav-link {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 257.4%;
+                text-transform: capitalize;
+                color: #FFFFFF; }
     body .container-fluid .main .main-content {
       width: 100%;
       height: 360px; }
@@ -758,18 +804,99 @@ body .container-fluid {
         justify-content: center; }
         body .container-fluid .skills .container .skills-next h4 {
           font-size: 18px; }
-    body .container-fluid .News .container .news-text {
-      margin: 0 0 40px; }
-      body .container-fluid .News .container .news-text h4 {
-        font-size: 25px; }
-    body .container-fluid .News .container .news-content .row {
-      flex-direction: column; }
-      body .container-fluid .News .container .news-content .row .col-7 {
+    body .container-fluid .News {
+      overflow: hidden; }
+      body .container-fluid .News .container .news-text {
+        margin: 0 0 40px; }
+        body .container-fluid .News .container .news-text h4 {
+          font-size: 25px; }
+      body .container-fluid .News .container .news-content .row {
+        flex-direction: column; }
+        body .container-fluid .News .container .news-content .row .col-7 {
+          max-width: 100%; }
+          body .container-fluid .News .container .news-content .row .col-7 .card .card-body .card-boxs {
+            height: 100%; }
+        body .container-fluid .News .container .news-content .row .col-5 {
+          max-width: 100%; }
+          body .container-fluid .News .container .news-content .row .col-5 .card .card-body .card-boxs {
+            width: 100%;
+            padding-right: 0 !important; }
+            body .container-fluid .News .container .news-content .row .col-5 .card .card-body .card-boxs img {
+              width: 100%;
+              margin: 10px 0 !important; }
+      body .container-fluid .News .container .news-next {
+        justify-content: center; }
+        body .container-fluid .News .container .news-next h4 {
+          font-size: 18px; }
+    body .container-fluid .aside {
+      overflow: hidden; }
+      body .container-fluid .aside .container .row {
+        margin: 0;
+        flex-direction: column;
+        padding: 50px; }
+        body .container-fluid .aside .container .row .col-4 {
+          max-width: 100%; }
+    body .container-fluid .footer {
+      height: 100%;
+      margin-bottom: 0; }
+      body .container-fluid .footer .container .row {
+        flex-direction: column;
+        margin: 0;
+        padding: 50px; }
+        body .container-fluid .footer .container .row .col-4 {
+          max-width: 100%; }
+          body .container-fluid .footer .container .row .col-4 .card .card-body img {
+            width: 100%; } }
+  @media (max-width: 992px) and (max-width: 768px) {
+    body .container-fluid .navbar .container .navbar-brand img {
+      width: 60px;
+      height: 60px; }
+    body .container-fluid .navbar .container .navbar-brand .navbar-text h5 {
+      font-size: 18px; }
+    body .container-fluid .navbar .container .navbar-brand .navbar-text h4 {
+      font-size: 18px; }
+    body .container-fluid .navbar .container .menu-btn {
+      width: 35px;
+      height: 35px;
+      background-image: url("../assets/icons/round_hamburger_menu_burger_icon_132782.svg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex !important; }
+    body .container-fluid .navbar .container .nav {
+      display: none; }
+    body .container-fluid .navbar-menus {
+      display: none; }
+    body .container-fluid .navbar-submenus {
+      display: none; }
+    body .container-fluid .main {
+      width: 100%; }
+      body .container-fluid .main .main-content {
+        width: 100%;
+        height: 442px; }
+      body .container-fluid .main .main-text {
+        width: 300px;
+        top: 55px;
+        left: 75px; }
+        body .container-fluid .main .main-text h5 {
+          font-size: 30px; }
+        body .container-fluid .main .main-text h4 {
+          margin-bottom: 0;
+          font-size: 30px; }
+    body .container-fluid .skills .container .skills-section h4 {
+      font-size: 25px; }
+    body .container-fluid .skills .container .row {
+      flex-direction: column;
+      margin: 0; }
+      body .container-fluid .skills .container .row .col-6 {
         max-width: 100%; }
-        body .container-fluid .News .container .news-content .row .col-7 .card .card-body .card-boxs {
-          height: 100%; }
-      body .container-fluid .News .container .news-content .row .col-5 {
-        max-width: 100%; }
+        body .container-fluid .skills .container .row .col-6 .card .card-body .city-photo {
+          width: 250px; }
+        body .container-fluid .skills .container .row .col-6 .card .card-body .skills-info .navigation p {
+          width: 214px; }
+    body .container-fluid .News {
+      display: none; }
+    body .container-fluid .aside {
+      display: none; }
     body .container-fluid .footer {
       display: none; } }
 
