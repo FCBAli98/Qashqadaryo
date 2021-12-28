@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&family=Roboto:ital,wght@0,500;0,700;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:wght@500;700;900&family=Roboto:ital,wght@0,500;0,700;1,100;1,300&display=swap');
+
+*{
+  .container-fluid{
+    position: relative;
+    padding: 0;
+    .navbar{
+      .container{
+        .navbar-brand{
+          display: flex;
+          padding: 10px;
+          align-content: center;
+          img{
+            width: 70px;
+            height: 70px;
+          }
+          .navbar-text{
+            h5{
+              font-family: Roboto;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 20px;
+              line-height: 116.4%;
+              text-transform: uppercase;
+              color: #4883A5;
+              margin-bottom: 0;
+            }
+            h4{
+              font-family: Roboto;
+              font-style: normal;
+              font-weight: 900;
+              font-size: 20px;
+              line-height: 116.4%;
+              text-transform: uppercase;
+              color: #4883A5;
+            }
+          }
+        }
+        .nav{
+          .nav-text1{
+            .nav-item:nth-child(1){
+              .nav-link{
+                img{
+                  width: 25px;
+                  height: 25px;
+                }
+              }
+            }
+            .nav-item:nth-child(2){
+              .nav-link{
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 15px;
+                line-height: 94.69%;
+                text-transform: capitalize;
+                color: #535C6D;
+              }
+            }
+          }
+          .nav-text2{
+            .nav-item{
+              .nav-link{
+                img{
+                  width: 25px;
+                  height: 25px;
+                }
+              }
+            }
+          }
+          .nav-text3{
+            .nav-item{
+              .nav-link{
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 15px;
+                line-height: 94.69%;
+                text-transform: capitalize;
+                color: #535C6D;
+
+              }
+            }
+            .nav-item:nth-child(3){
+              .nav-link{
+                img{
+                  width: 20px;
+                  height: 25px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .navbar-menus{
+      height: 58px;
+      background: rgba(27, 96, 225, .6);
+      width: 100%;
+      transition: 1s ease;
+      &.active{
+        position: fixed;
+        top: 0;
+        transition: 1s ease;
+        background-color: #0a6ebd;
+        z-index: 999;
+      }
+      .container{
+        .nav{
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          align-content: center;
+          height: 100%;
+          .nav-item{
+            position: relative;
+            min-height: 100%;
+            padding: 8px;
+            .nav-link{
+              font-family: Roboto;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 18px;
+              line-height: 21px;
+              text-transform: capitalize;
+              color: #ffffff;
+              order: 0;
+              flex-grow: 0;
+              padding: 10px;
+            }
+            .nav{
+              flex-direction: column;
+              background: rgba(27, 96, 225, 0.8);
+              backdrop-filter: blur(4px);
+              width: 368px;
+              display: none;
+              position: absolute;
+              top: 58px;
+              height: auto;
+              z-index: 999;
+              padding: 0 20px;
+              .nav-item{
+                border-bottom: 0.5px solid rgba(255, 255, 255, 0.55);
+                padding: 0;
+                height: 100%;
+                z-index: 999  ;
+                width: 100%;
+                .nav-link{
+                  font-family: Montserrat;
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 15px!important;
+                  line-height: 22px;
+                  text-transform: capitalize;
+                  color: #FFFFFF;
+
+                }
+              }
+            }
+            &:hover{
+              .nav{
+                display: flex!important;
+              }
+            }
+          }
+        }
+      }
+    }
+    .navbar-submenus{
+      display: none;
+    }
+    .body{
+      position: relative;
+      .body-content{
+        background-image: url("../assets/image/samarrrr.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 350px;
+        opacity: 0.2;
+        background-position: center;
+      }
+      .body-text{
+        position: absolute;
+        top: 198px;
+        left: 180px;
+        p{
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 32px;
+          line-height: 139.9%;
+          text-transform: uppercase;
+          color: #51596A;
+          width: 672px;
+        }
+      }
+    }
+    .skills{
+      .container{
+        .skills-contact{
+          p{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 115.19%;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+            color: #51596A;
+            width: 100%;
+          }
+          .date{
+            width: 100%;
+            border-top:  1px solid rgba(0, 0, 0, 0.5);
+            border-bottom:  1px solid rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            padding: 10px 15px;
+            img{
+              width: 25px;
+              height: 25px;
+              cursor: pointer;
+            }
+            p{
+              font-family: Roboto;
+              font-style: normal;
+              margin-bottom: 0;
+              margin-left: 10px;
+              font-weight: 300;
+              font-size: 24px;
+              line-height: 139.9%;
+              text-transform: lowercase;
+              color: #535C6D;
+              cursor: pointer;
+            }
+          }
+
+        }
+        .skills-content{
+          img{
+            width: 100%;
+          }
+          p{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            line-height: 151.4%;
+            text-transform: lowercase;
+            color: #51596A;
+          }
+        }
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
+        @media (max-width: 576px) {
+          .navbar{
+            padding: 20px;
+            .navbar-brand{
+              img{
+                width: 45px;
+                height: 45px;
+              }
+              .navbar-text{
+                h5{
+                  font-size: 10px;
+                }
+                h4{
+                  font-size: 10px;
+                }
+              }
+            }
+            .menu-btn{
+              width: 30px;
+              height: 30px;
+              background-image: url("../assets/icons/round_hamburger_menu_burger_icon_132782.svg");
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            .nav{
+              display: none;
+            }
+          }
+          .navbar-menus{
+            display: none;
+          }
+          .body{
+            .body-content{
+              width: 100%;
+              height: 188px;
+            }
+            .body-text{
+              top: 70px;
+              left: 63px;
+              h4{
+                font-size: 8px;
+                width: 100%;
+              }
+              h5{
+                font-size: 8px;
+                width: 100%;
+              }
+            }
+          }
+          .skills{
+            width: 100%;
+            height: 100%;
+            .col-9{
+              width: 100%;
+              top: -54px;
+              min-height: 100%;
+              padding: 10px!important;
+              .skills-contact{
+                .row{
+                  width: 100%;
+                  flex-direction: column;
+                  margin: 0;
+                  .col-4{
+                    max-width: 100%;
+                    .card{
+                      width: 250px;
+                      height: 150px;
+                      margin-left: auto;
+                      margin-right: auto;
+                      padding: 20px;
+                      margin-top: 20px;
+                      .card-body{
+                        h5{
+                          font-size: 10px;
+                        }
+                        p{
+                          font-size: 10px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        @media (max-width: 768px) and (min-width: 576px) {
+          .navbar{
+            padding: 20px 25px;
+            .navbar-brand{
+              img{
+                width: 55px;
+                height: 55px;
+              }
+              .navbar-text{
+                h5{
+                  font-size: 15px;
+                }
+                h4{
+                  font-size: 15px;
+                }
+              }
+            }
+            .menu-btn{
+              width: 30px;
+              height: 30px;
+              background-image: url("../assets/icons/round_hamburger_menu_burger_icon_132782.svg");
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            .nav{
+              display: none;
+            }
+          }
+          .navbar-menus{
+            display: none;
+          }
+          .body{
+            .body-content{
+              width: 100%;
+              height: 228px;
+            }
+            .body-text{
+              top: 90px;
+              left: 50px;
+              h4{
+                font-size: 10px;
+                width: 100%;
+                margin-bottom: 0;
+              }
+              h5{
+                font-size: 10px;
+                width: 100%;
+              }
+            }
+          }
+          .skills{
+            width: 100%;
+            .col-9{
+              width: 100%;
+              min-height: 100%;
+              padding: 20px;
+              top: -62px;
+              .skills-contact{
+                .row{
+                  width: 100%;
+                  flex-direction: column;
+                  margin: 0;
+                  .col-4{
+                    min-width: 100%;
+                    margin-top: 20px;
+                    .card{
+                        width: 250px;
+                      height: 150px;
+                      margin-right: auto;
+                      margin-left: auto;
+                      padding: 20px;
+                      .card-body{
+                        h5{
+                          font-size: 15px;
+                        }
+                        h4{
+                          font-size: 15px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        @media (min-width: 768px) and (max-width: 992px){
+          .navbar{
+            padding: 20px 30px;
+            .navbar-brand{
+              .navbar-text{
+                h5{
+                  font-size: 18px;
+                }
+                h4{
+                  font-size: 18px;
+                }
+              }
+            }
+            .menu-btn{
+              width: 30px;
+              height: 30px;
+              background-image: url("../assets/icons/round_hamburger_menu_burger_icon_132782.svg");
+              background-size: cover;
+              background-repeat: no-repeat;
+            }
+            .nav{
+              display: none;
+            }
+          }
+          .navbar-menus{
+            display: none;
+          }
+          .body{
+            .body-content{
+              width: 100%;
+              height: 297px;
+            }
+            .body-text{
+              top: 116px;
+              left: 50px;
+              h5{
+                font-size: 15px;
+                width: 100%;
+              }
+              h4{
+                font-size: 15px;
+                width: 100%;
+              }
+            }
+          }
+          .skills{
+            .col-9{
+              width: 100%;
+              min-height: 100%;
+              padding: 20px;
+              top: -85px;
+              .skills-contact{
+                .row{
+                  width: 100%;
+                  flex-direction: column;
+                  margin: 0;
+                  .col-4{
+                    max-width: 100%;
+                    margin-top: 20px;
+                    .card{
+                      width: 300px;
+                      height: 200px;
+                      margin-left: auto;
+                      margin-right: auto;
+                      .card-body{
+                        h5{
+                          font-size: 15px;
+                        }
+                        p{
+                          font-size: 15px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        @media (min-width: 992px) and (max-width: 1200px) {
+          .navbar{
+            padding: 25px;
+            .navbar-brand{
+              img{
+                width: 60px;
+                height: 60px;
+              }
+              .navbar-text{
+                h5{
+                  font-size: 18px;
+                }
+                h4{
+                  font-size: 18px;
+                }
+              }
+            }
+            .nav{
+              .nav-item{
+                .nav-link{
+                  padding: 10px;
+                }
+              }
+            }
+          }
+          .navbar-menus{
+            padding: 25px;
+            .nav{
+              .nav-item{
+                .nav-link{
+                  font-size: 16px;
+                  padding: 10px;
+                }
+              }
+            }
+          }
+          .body{
+            .body-content{
+              width: 100%;
+              height: 379px;
+            }
+            .body-text{
+              top: 139px;
+              left: 80px;
+              h5{
+                font-size: 18px;
+                width: 100%;
+              }
+              h4{
+                font-size: 18px;
+                width: 100%;
+              }
+            }
+          }
+          .skills{
+            .col-9{
+              padding: 30px;
+              width: 100%;
+              top: -110px;
+              .skills-contact{
+                .row{
+                  width: 100%;
+                  margin: 0;
+                  flex-wrap: wrap;
+                  .col-4{
+                    max-width: 50%;
+                    .card{
+                      width: 250px;
+                      height: 200px;
+                      padding: 25px;
+                      margin-top: 20px;
+                      .card-body{
+                        h5{
+                          font-size: 12px;
+                        }
+                        p{
+                          font-size: 12px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        @media (min-width: 1200px) and (max-width: 1400px) {
+          .navbar{
+            padding: 25px 30px;
+          }
+          .navbar-menus{
+            padding: 25px 30px;
+            .nav{
+              .nav-item{
+                .nav-link{
+                  font-size: 18px;
+                }
+              }
+            }
+          }
+          .body{
+            .body-content{
+              width: 100%;
+              height: 465px;
+            }
+            .body-text{
+              top: 165px;
+              left: 101px;
+              h5{
+                font-size: 22px;
+                width: 100%;
+              }
+              h4{
+                font-size: 22px;
+                width: 100%;
+              }
+            }
+          }
+          .skills{
+            .col-9{
+              width: 100%;
+              top: -140px;
+              padding: 20px;
+              .skills-contact{
+                width: 100%;
+                .row{
+                  width: 100%;
+                  margin: 0;
+                  .col-4{
+                    max-width: 33%;
+                    .card{
+                      width: 250px;
+                      height: 180px;
+                      padding: 15px;
+                      margin-right: auto;
+                      margin-left: auto;
+                      margin-top: 20px;
+                      .card-body{
+                        h5{
+                          font-size: 15px;
+                        }
+                        p{
+                          font-size: 15px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+
+     */
+  }
+}

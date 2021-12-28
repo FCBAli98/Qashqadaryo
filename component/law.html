@@ -11,153 +11,225 @@
 <body>
 <div class="container-fluid">
     <div class="navbar">
-        <div class="navbar-brand">
-            <img src="../assets/icons/Grb.png" alt="">
-            <div class="navbar-text">
-                <h5>Қашқадарё вилояти</h5>
-                <h4>Бандлик бош бошқармаси</h4>
+        <div class="container">
+            <div class="navbar-brand">
+                <img src="../assets/icons/Grb.png" alt="error">
+                <div class="navbar-text">
+                    <h5>Қашқадарё вилояти</h5>
+                    <h4>Бандлик бош бошқармаси</h4>
+                </div>
             </div>
+            <div class="menu-btn d-none" id="menu"></div>
+            <ul class="nav" id="nav-menu">
+                <div class="nav-text2 d-flex align-items-center">
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/icons/miniphone.svg" alt="error"></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/icons/glesses.svg" alt="error"></a></li>
+                </div>
+                <div class="nav-text3 d-flex align-items-center">
+                    <li class="nav-item"><a href="#" class="nav-link">O'zb</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">ўзб</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/icons/search.svg" alt="error"></a></li>
+                </div>
+            </ul>
         </div>
-        <div class="menu-btn" id="menu"></div>
-        <ul class="nav" id="nav-menu">
-            <div class="nav-text1 d-flex align-items-center">
-                <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/icons/phone.svg" alt="error"></a>
-                </li>
-                <li class="nav-item"><a href="#" class="nav-link">+998(71) 233-22-00</a></li>
-            </div>
-            <div class="nav-text2 d-flex align-items-center">
-                <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/icons/miniphone.svg" alt="error"></a>
-                </li>
-                <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/icons/glesses.svg"
-                                                                       alt="error"></a></li>
-            </div>
-            <div class="nav-text3 d-flex align-items-center">
-                <li class="nav-item"><a href="#" class="nav-link">рус</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">ўзб</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">eng</a></li>
-                <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/icons/search.svg" alt="error"></a>
-                </li>
-            </div>
-        </ul>
     </div>
-    <div class="navbar-menus" id="nav">
-        <ul class="nav">
-            <li class="nav-item"><a href="#" class="nav-link">Бошқарма</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Ҳудудий бўлимлар</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Касбга ўқитиш</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Матбуот маркази</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Меъёрий-ҳуқуқий хужжатлар</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Вакансиялар</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Боғланиш</a></li>
-        </ul>
-    </div>
+    <!-- desctop-->
+    <div class="navbar-menus" id="scroll">
+        <div class="container">
+            <ul class="nav">
+                <li class="nav-item"><a href="#" class="nav-link">Бошқарма</a>
 
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/work.html')">Бошқарма ҳақида</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/Contact.html')">Раҳбарият</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/employees.html')">Ҳодимлар</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/basic.html')">Бошқарма тузилмаси</a></li>
+                        <li class="nav-item border-bottom-0"><a href="#" class="nav-link" onclick="locatt('/index.html')">Фаолият йўналишлари</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/Territorial divisions.html')">Ҳудудий бўлимлар</a>
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Қарши шаҳри</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Шаҳрисабз шаҳри</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Ғузор тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Деҳқонобод тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Касби тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Китоб тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Косон тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Қамаши тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Қарши тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Миришкор тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Муборак тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Нишон тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Чироқчи тумани</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Шаҳрисабз тумани</a></li>
+                        <li class="nav-item border-bottom-0"><a href="#" class="nav-link" onclick="locatt('/.html')">Яккабоғ тумани</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/section.html')">Касбга ўқитиш</a>
+                    <ul class="nav">
+                        <li class="nav-item h-100"><a href="#" class="nav-link h-100" onclick="locatt('/mono.html')">“Ишга Марҳамат” Мономарказ</a></li>
+                        <li class="nav-item h-100"><a href="#" class="nav-link h-100" onclick="locatt('/koica.html')">KOICA</a></li>
+                        <li class="nav-item border-bottom-0"><a href="#" class="nav-link h-100" onclick="locatt('/article.html')">Деҳқонобод тумани касб-ҳунарга ўқитиш маркази</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">Матбуот маркази</a>
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#" class="nav-link">Янгиликлар</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Фотогалерия</a></li>
+                        <li class="nav-item border-bottom-0"><a href="#" class="nav-link">Видеогалерия</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">Меъёрий-ҳуқуқий хужжатлар</a>
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/law.html')">Ўзбекистон Республикаси қонунлари</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/note.html')">Ўзбекистон Республикаси Президенти Фармон ва Қарорлари</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/minister.html')">Ўзбекистон Республикаси Вазирлар Маҳкамаси  Қарорлари</a></li>
+                        <li class="nav-item border-bottom-0"><a href="#" class="nav-link" onclick="locatt('/end.html')">Ўзбекистон Республикаси Бандлик ва меҳнат муносабатлари вазирлиги меъёрий хужжатлари</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">Боғланиш</a>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- mobile version-->
+    <div class="navbar-submenus" id="nav">
+        <ul class="nav">
+            <li class="nav-item">
+                <a href="#demo" class="nav-link" data-toggle="collapse">Бошқарма</a>
+
+                <ul class="nav collapse" id="demo">
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/work.html')">Бошқарма ҳақида</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/Contact.html')">Раҳбарият</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/employees.html')">Ҳодимлар</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/basic.html')">Бошқарма тузилмаси</a></li>
+                    <li class="nav-item border-bottom-0"><a href="#" class="nav-link" onclick="locatt('/index.html')">Фаолият йўналишлари</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="#demo1" class="nav-link" data-toggle="collapse" onclick="locatt('/Territorial divisions.html')">Ҳудудий бўлимлар</a>
+                <ul class="nav collapse" id="demo1">
+                    <li class="nav-item h-100"><a href="#" class="nav-link h-100" onclick="locatt('/mono.html')">“Ишга Марҳамат” Мономарказ</a></li>
+                    <li class="nav-item h-100"><a href="#" class="nav-link h-100" onclick="locatt('/koica.html')">KOICA</a></li>
+                    <li class="nav-item border-bottom-0"><a href="#" class="nav-link h-100" onclick="locatt('/article.html')">Деҳқонобод тумани касб-ҳунарга ўқитиш маркази</a></li>
+                </ul>
+
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link" onclick="locatt('/section.html')">Касбга ўқитиш</a></li>
+            <li class="nav-item"><a href="#demo2" class="nav-link" data-toggle="collapse">Матбуот маркази</a>
+                <ul class="nav collapse" id="demo2">
+                    <li class="nav-item"><a href="#" class="nav-link">Янгиликлар</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Фотогалерия</a></li>
+                    <li class="nav-item border-bottom-0"><a href="#" class="nav-link">Видеогалерия</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="#demo3" class="nav-link" data-toggle="collapse">Меъёрий-ҳуқуқий хужжатлар</a>
+                <ul class="nav collapse" id="demo3">
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/law.html')">Ўзбекистон Республикаси қонунлари</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/note.html')">Ўзбекистон Республикаси Президенти Фармон ва Қарорлари</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/minister.html')">Ўзбекистон Республикаси Вазирлар Маҳкамаси  Қарорлари</a></li>
+                    <li class="nav-item border-bottom-0"><a href="#" class="nav-link" onclick="locatt('/end.html')">Ўзбекистон Республикаси Бандлик ва меҳнат муносабатлари вазирлиги меъёрий хужжатлари</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Вакансиялар</a></li>
+            <li class="nav-item">
+                <a href="#demo4" class="nav-link" data-toggle="collapse">Боғланиш</a>
+                <ul class="nav collapse" id="demo4">
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Қарши шаҳри</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Шаҳрисабз шаҳри</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Ғузор тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Деҳқонобод тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Касби тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Китоб тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Косон тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Қамаши тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Қарши тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Миришкор тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Муборак тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Нишон тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Чироқчи тумани</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/.html')">Шаҳрисабз тумани</a></li>
+                    <li class="nav-item border-bottom-0"><a href="#" class="nav-link" onclick="locatt('/.html')">Яккабоғ тумани</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
     <div class="body">
         <div class="body-content"></div>
         <div class="body-text">
-            <h4>Ўзбекистон Республикаси</h4>
-            <h5>қонунлари</h5>
+            <p>Ўзбекистон Республикаси қонунлари</p>
         </div>
     </div>
     <div class="skills">
-
-        <div class="col-9 ">
-            <div class="skills-contact">
-                <div class="row">
-                    <div class="col-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5>ДАВЛАТ-ХУСУСИЙ ШЕРИКЛИК ТЎҒРИСИДА</h5>
-                                <p>04/11/2019   ЗРУ-537</p>
-                            </div>
+        <div class="container">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="date">
+                            <img src="../assets/icons/calendar.svg" alt="error">
+                            <p>20-12-2021</p>
+                        </div>
+                        <div class="body-text">
+                            <p>Ўзбекистон Республикаси билан соғлиқни сақлаш бўйича тузилган халқаро шартномалар, шунингдек ушбу Низом асосида юритилади.</p>
+                        </div>
+                        <div class="more">
+                            <p>батафсил</p>
+                            <img src="../assets/icons/next11.svg" alt="error">
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5>ДАВЛАТ-ХУСУСИЙ ШЕРИКЛИК ТЎҒРИСИДА</h5>
-                                <p>04/11/2019   ЗРУ-537</p>
-                            </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="date">
+                            <img src="../assets/icons/calendar.svg" alt="error">
+                            <p>20-12-2021</p>
+                        </div>
+                        <div class="body-text">
+                            <p>Ўзбекистон Республикаси билан соғлиқни сақлаш бўйича тузилган халқаро шартномалар, шунингдек ушбу Низом асосида юритилади.</p>
+                        </div>
+                        <div class="more">
+                            <p>батафсил</p>
+                            <img src="../assets/icons/next11.svg" alt="error">
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5>ДАВЛАТ-ХУСУСИЙ ШЕРИКЛИК ТЎҒРИСИДА</h5>
-                                <p>04/11/2019   ЗРУ-537</p>
-                            </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="date">
+                            <img src="../assets/icons/calendar.svg" alt="error">
+                            <p>20-12-2021</p>
+                        </div>
+                        <div class="body-text">
+                            <p>Ўзбекистон Республикаси билан соғлиқни сақлаш бўйича тузилган халқаро шартномалар, шунингдек ушбу Низом асосида юритилади.</p>
+                        </div>
+                        <div class="more">
+                            <p>батафсил</p>
+                            <img src="../assets/icons/next11.svg" alt="error">
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5>ДАВЛАТ-ХУСУСИЙ ШЕРИКЛИК ТЎҒРИСИДА</h5>
-                                <p>04/11/2019   ЗРУ-537</p>
-                            </div>
+                </div>
+            </div>
+            <div class="col-12 mb-5">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="date">
+                            <img src="../assets/icons/calendar.svg" alt="error">
+                            <p>20-12-2021</p>
                         </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5>ДАВЛАТ-ХУСУСИЙ ШЕРИКЛИК ТЎҒРИСИДА</h5>
-                                <p>04/11/2019   ЗРУ-537</p>
-                            </div>
+                        <div class="body-text">
+                            <p>Ўзбекистон Республикаси билан соғлиқни сақлаш бўйича тузилган халқаро шартномалар, шунингдек ушбу Низом асосида юритилади.</p>
                         </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5>ДАВЛАТ-ХУСУСИЙ ШЕРИКЛИК ТЎҒРИСИДА</h5>
-                                <p>04/11/2019   ЗРУ-537</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5>ДАВЛАТ-ХУСУСИЙ ШЕРИКЛИК ТЎҒРИСИДА</h5>
-                                <p>04/11/2019   ЗРУ-537</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5>ДАВЛАТ-ХУСУСИЙ ШЕРИКЛИК ТЎҒРИСИДА</h5>
-                                <p>04/11/2019   ЗРУ-537</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5>ДАВЛАТ-ХУСУСИЙ ШЕРИКЛИК ТЎҒРИСИДА</h5>
-                                <p>04/11/2019   ЗРУ-537</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5>ДАВЛАТ-ХУСУСИЙ ШЕРИКЛИК ТЎҒРИСИДА</h5>
-                                <p>04/11/2019   ЗРУ-537</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5>ДАВЛАТ-ХУСУСИЙ ШЕРИКЛИК ТЎҒРИСИДА</h5>
-                                <p>04/11/2019   ЗРУ-537</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5>ДАВЛАТ-ХУСУСИЙ ШЕРИКЛИК ТЎҒРИСИДА</h5>
-                                <p>04/11/2019   ЗРУ-537</p>
-                            </div>
+                        <div class="more">
+                            <p>батафсил</p>
+                            <img src="../assets/icons/next11.svg" alt="error">
                         </div>
                     </div>
                 </div>
