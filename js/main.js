@@ -32,7 +32,7 @@ btn.addEventListener('click', () =>{
 
 
 function locatt(text) {
-    // console.log(text);
+    console.log(text);
     let url = text;
     if (text) {
         location.assign("./component" + url);
@@ -52,3 +52,6 @@ function menubar() {
         menu1 = false
     }
 }
+
+
+
